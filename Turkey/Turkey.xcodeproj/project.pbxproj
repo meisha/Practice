@@ -1,0 +1,211 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		890641B1157800990050B4B6 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 890641B0157800990050B4B6 /* main.c */; };
+		890641B3157800990050B4B6 /* Turkey.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 890641B2157800990050B4B6 /* Turkey.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		890641AA157800990050B4B6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				890641B3157800990050B4B6 /* Turkey.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		890641AC157800990050B4B6 /* Turkey */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Turkey; sourceTree = BUILT_PRODUCTS_DIR; };
+		890641B0157800990050B4B6 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		890641B2157800990050B4B6 /* Turkey.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Turkey.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		890641A9157800990050B4B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		890641A1157800990050B4B6 = {
+			isa = PBXGroup;
+			children = (
+				890641AF157800990050B4B6 /* Turkey */,
+				890641AD157800990050B4B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		890641AD157800990050B4B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				890641AC157800990050B4B6 /* Turkey */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		890641AF157800990050B4B6 /* Turkey */ = {
+			isa = PBXGroup;
+			children = (
+				890641B0157800990050B4B6 /* main.c */,
+				890641B2157800990050B4B6 /* Turkey.1 */,
+			);
+			path = Turkey;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		890641AB157800990050B4B6 /* Turkey */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 890641B6157800990050B4B6 /* Build configuration list for PBXNativeTarget "Turkey" */;
+			buildPhases = (
+				890641A8157800990050B4B6 /* Sources */,
+				890641A9157800990050B4B6 /* Frameworks */,
+				890641AA157800990050B4B6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Turkey;
+			productName = Turkey;
+			productReference = 890641AC157800990050B4B6 /* Turkey */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		890641A3157800990050B4B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Blue Jar Studios";
+			};
+			buildConfigurationList = 890641A6157800990050B4B6 /* Build configuration list for PBXProject "Turkey" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 890641A1157800990050B4B6;
+			productRefGroup = 890641AD157800990050B4B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				890641AB157800990050B4B6 /* Turkey */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		890641A8157800990050B4B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				890641B1157800990050B4B6 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		890641B4157800990050B4B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		890641B5157800990050B4B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		890641B7157800990050B4B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		890641B8157800990050B4B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		890641A6157800990050B4B6 /* Build configuration list for PBXProject "Turkey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				890641B4157800990050B4B6 /* Debug */,
+				890641B5157800990050B4B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		890641B6157800990050B4B6 /* Build configuration list for PBXNativeTarget "Turkey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				890641B7157800990050B4B6 /* Debug */,
+				890641B8157800990050B4B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 890641A3157800990050B4B6 /* Project object */;
+}
