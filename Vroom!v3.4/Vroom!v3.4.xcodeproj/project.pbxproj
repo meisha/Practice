@@ -1,0 +1,348 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8902FE2015E3B14500E5DD59 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8902FE1F15E3B14500E5DD59 /* UIKit.framework */; };
+		8902FE2215E3B14500E5DD59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8902FE2115E3B14500E5DD59 /* Foundation.framework */; };
+		8902FE2415E3B14500E5DD59 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8902FE2315E3B14500E5DD59 /* CoreGraphics.framework */; };
+		8902FE2A15E3B14500E5DD59 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8902FE2815E3B14500E5DD59 /* InfoPlist.strings */; };
+		8902FE2C15E3B14500E5DD59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8902FE2B15E3B14500E5DD59 /* main.m */; };
+		8902FE3015E3B14500E5DD59 /* CGDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8902FE2F15E3B14500E5DD59 /* CGDAppDelegate.m */; };
+		8902FE3315E3B14500E5DD59 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8902FE3115E3B14500E5DD59 /* MainStoryboard.storyboard */; };
+		8902FE3615E3B14600E5DD59 /* CGDFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8902FE3515E3B14600E5DD59 /* CGDFirstViewController.m */; };
+		8902FE3D15E3B14600E5DD59 /* CGDSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8902FE3C15E3B14600E5DD59 /* CGDSecondViewController.m */; };
+		8902FE4815E3B19B00E5DD59 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8902FE4715E3B19B00E5DD59 /* Icon.png */; };
+		8902FE4A15E3B1A300E5DD59 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8902FE4915E3B1A300E5DD59 /* Icon@2x.png */; };
+		8902FE4C15E3B1A600E5DD59 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8902FE4B15E3B1A600E5DD59 /* Default.png */; };
+		8902FE4E15E3B1A800E5DD59 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8902FE4D15E3B1A800E5DD59 /* Default@2x.png */; };
+		8902FE5015E3B1B500E5DD59 /* events.png in Resources */ = {isa = PBXBuildFile; fileRef = 8902FE4F15E3B1B500E5DD59 /* events.png */; };
+		8902FE5215E3B1BC00E5DD59 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 8902FE5115E3B1BC00E5DD59 /* home.png */; };
+		8902FE5615E3B1C700E5DD59 /* plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 8902FE5515E3B1C700E5DD59 /* plus.png */; };
+		8902FE5815E3B1D100E5DD59 /* carbg.png in Resources */ = {isa = PBXBuildFile; fileRef = 8902FE5715E3B1D100E5DD59 /* carbg.png */; };
+		8902FE5E15E3B3EE00E5DD59 /* CGDThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8902FE5D15E3B3EE00E5DD59 /* CGDThirdViewController.m */; };
+		8902FE7915E3CFDA00E5DD59 /* CGDFourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8902FE7815E3CFDA00E5DD59 /* CGDFourthViewController.m */; };
+		8902FE8115E3DA7600E5DD59 /* CGDTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8902FE8015E3DA7600E5DD59 /* CGDTableViewController.m */; };
+		89B9934C15E43A8E0064FA13 /* logo1.png in Resources */ = {isa = PBXBuildFile; fileRef = 89B9934B15E43A8E0064FA13 /* logo1.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8902FE1B15E3B14500E5DD59 /* Vroom!v3.4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vroom!v3.4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8902FE1F15E3B14500E5DD59 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8902FE2115E3B14500E5DD59 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8902FE2315E3B14500E5DD59 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8902FE2715E3B14500E5DD59 /* Vroom!v3.4-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Vroom!v3.4-Info.plist"; sourceTree = "<group>"; };
+		8902FE2915E3B14500E5DD59 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8902FE2B15E3B14500E5DD59 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8902FE2D15E3B14500E5DD59 /* Vroom!v3.4-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vroom!v3.4-Prefix.pch"; sourceTree = "<group>"; };
+		8902FE2E15E3B14500E5DD59 /* CGDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGDAppDelegate.h; sourceTree = "<group>"; };
+		8902FE2F15E3B14500E5DD59 /* CGDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CGDAppDelegate.m; sourceTree = "<group>"; };
+		8902FE3215E3B14500E5DD59 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		8902FE3415E3B14500E5DD59 /* CGDFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGDFirstViewController.h; sourceTree = "<group>"; };
+		8902FE3515E3B14600E5DD59 /* CGDFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CGDFirstViewController.m; sourceTree = "<group>"; };
+		8902FE3B15E3B14600E5DD59 /* CGDSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGDSecondViewController.h; sourceTree = "<group>"; };
+		8902FE3C15E3B14600E5DD59 /* CGDSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CGDSecondViewController.m; sourceTree = "<group>"; };
+		8902FE4715E3B19B00E5DD59 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../Icon.png; sourceTree = "<group>"; };
+		8902FE4915E3B1A300E5DD59 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../Icon@2x.png"; sourceTree = "<group>"; };
+		8902FE4B15E3B1A600E5DD59 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
+		8902FE4D15E3B1A800E5DD59 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
+		8902FE4F15E3B1B500E5DD59 /* events.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = events.png; sourceTree = "<group>"; };
+		8902FE5115E3B1BC00E5DD59 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		8902FE5515E3B1C700E5DD59 /* plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plus.png; sourceTree = "<group>"; };
+		8902FE5715E3B1D100E5DD59 /* carbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = carbg.png; sourceTree = "<group>"; };
+		8902FE5C15E3B3ED00E5DD59 /* CGDThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGDThirdViewController.h; sourceTree = "<group>"; };
+		8902FE5D15E3B3EE00E5DD59 /* CGDThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGDThirdViewController.m; sourceTree = "<group>"; };
+		8902FE7715E3CFDA00E5DD59 /* CGDFourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGDFourthViewController.h; sourceTree = "<group>"; };
+		8902FE7815E3CFDA00E5DD59 /* CGDFourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGDFourthViewController.m; sourceTree = "<group>"; };
+		8902FE7F15E3DA7600E5DD59 /* CGDTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGDTableViewController.h; sourceTree = "<group>"; };
+		8902FE8015E3DA7600E5DD59 /* CGDTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGDTableViewController.m; sourceTree = "<group>"; };
+		89B9934B15E43A8E0064FA13 /* logo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo1.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8902FE1815E3B14500E5DD59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8902FE2015E3B14500E5DD59 /* UIKit.framework in Frameworks */,
+				8902FE2215E3B14500E5DD59 /* Foundation.framework in Frameworks */,
+				8902FE2415E3B14500E5DD59 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8902FE1015E3B14500E5DD59 = {
+			isa = PBXGroup;
+			children = (
+				8902FE2515E3B14500E5DD59 /* Vroom!v3.4 */,
+				8902FE1E15E3B14500E5DD59 /* Frameworks */,
+				8902FE1C15E3B14500E5DD59 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8902FE1C15E3B14500E5DD59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8902FE1B15E3B14500E5DD59 /* Vroom!v3.4.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8902FE1E15E3B14500E5DD59 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8902FE1F15E3B14500E5DD59 /* UIKit.framework */,
+				8902FE2115E3B14500E5DD59 /* Foundation.framework */,
+				8902FE2315E3B14500E5DD59 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8902FE2515E3B14500E5DD59 /* Vroom!v3.4 */ = {
+			isa = PBXGroup;
+			children = (
+				8902FE2E15E3B14500E5DD59 /* CGDAppDelegate.h */,
+				8902FE2F15E3B14500E5DD59 /* CGDAppDelegate.m */,
+				8902FE3115E3B14500E5DD59 /* MainStoryboard.storyboard */,
+				8902FE3415E3B14500E5DD59 /* CGDFirstViewController.h */,
+				8902FE3515E3B14600E5DD59 /* CGDFirstViewController.m */,
+				8902FE7F15E3DA7600E5DD59 /* CGDTableViewController.h */,
+				8902FE8015E3DA7600E5DD59 /* CGDTableViewController.m */,
+				8902FE5C15E3B3ED00E5DD59 /* CGDThirdViewController.h */,
+				8902FE5D15E3B3EE00E5DD59 /* CGDThirdViewController.m */,
+				8902FE7715E3CFDA00E5DD59 /* CGDFourthViewController.h */,
+				8902FE7815E3CFDA00E5DD59 /* CGDFourthViewController.m */,
+				8902FE3B15E3B14600E5DD59 /* CGDSecondViewController.h */,
+				8902FE3C15E3B14600E5DD59 /* CGDSecondViewController.m */,
+				8902FE2615E3B14500E5DD59 /* Supporting Files */,
+			);
+			path = "Vroom!v3.4";
+			sourceTree = "<group>";
+		};
+		8902FE2615E3B14500E5DD59 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				89B9934B15E43A8E0064FA13 /* logo1.png */,
+				8902FE4D15E3B1A800E5DD59 /* Default@2x.png */,
+				8902FE4B15E3B1A600E5DD59 /* Default.png */,
+				8902FE4915E3B1A300E5DD59 /* Icon@2x.png */,
+				8902FE4715E3B19B00E5DD59 /* Icon.png */,
+				8902FE5715E3B1D100E5DD59 /* carbg.png */,
+				8902FE5515E3B1C700E5DD59 /* plus.png */,
+				8902FE5115E3B1BC00E5DD59 /* home.png */,
+				8902FE4F15E3B1B500E5DD59 /* events.png */,
+				8902FE2715E3B14500E5DD59 /* Vroom!v3.4-Info.plist */,
+				8902FE2815E3B14500E5DD59 /* InfoPlist.strings */,
+				8902FE2B15E3B14500E5DD59 /* main.m */,
+				8902FE2D15E3B14500E5DD59 /* Vroom!v3.4-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8902FE1A15E3B14500E5DD59 /* Vroom!v3.4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8902FE4415E3B14600E5DD59 /* Build configuration list for PBXNativeTarget "Vroom!v3.4" */;
+			buildPhases = (
+				8902FE1715E3B14500E5DD59 /* Sources */,
+				8902FE1815E3B14500E5DD59 /* Frameworks */,
+				8902FE1915E3B14500E5DD59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Vroom!v3.4";
+			productName = "Vroom!v3.4";
+			productReference = 8902FE1B15E3B14500E5DD59 /* Vroom!v3.4.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8902FE1215E3B14500E5DD59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CGD;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Coder Girl Design";
+			};
+			buildConfigurationList = 8902FE1515E3B14500E5DD59 /* Build configuration list for PBXProject "Vroom!v3.4" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8902FE1015E3B14500E5DD59;
+			productRefGroup = 8902FE1C15E3B14500E5DD59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8902FE1A15E3B14500E5DD59 /* Vroom!v3.4 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8902FE1915E3B14500E5DD59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8902FE2A15E3B14500E5DD59 /* InfoPlist.strings in Resources */,
+				8902FE3315E3B14500E5DD59 /* MainStoryboard.storyboard in Resources */,
+				8902FE4815E3B19B00E5DD59 /* Icon.png in Resources */,
+				8902FE4A15E3B1A300E5DD59 /* Icon@2x.png in Resources */,
+				8902FE4C15E3B1A600E5DD59 /* Default.png in Resources */,
+				8902FE4E15E3B1A800E5DD59 /* Default@2x.png in Resources */,
+				8902FE5015E3B1B500E5DD59 /* events.png in Resources */,
+				8902FE5215E3B1BC00E5DD59 /* home.png in Resources */,
+				8902FE5615E3B1C700E5DD59 /* plus.png in Resources */,
+				8902FE5815E3B1D100E5DD59 /* carbg.png in Resources */,
+				89B9934C15E43A8E0064FA13 /* logo1.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8902FE1715E3B14500E5DD59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8902FE2C15E3B14500E5DD59 /* main.m in Sources */,
+				8902FE3015E3B14500E5DD59 /* CGDAppDelegate.m in Sources */,
+				8902FE3615E3B14600E5DD59 /* CGDFirstViewController.m in Sources */,
+				8902FE3D15E3B14600E5DD59 /* CGDSecondViewController.m in Sources */,
+				8902FE5E15E3B3EE00E5DD59 /* CGDThirdViewController.m in Sources */,
+				8902FE7915E3CFDA00E5DD59 /* CGDFourthViewController.m in Sources */,
+				8902FE8115E3DA7600E5DD59 /* CGDTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8902FE2815E3B14500E5DD59 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8902FE2915E3B14500E5DD59 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8902FE3115E3B14500E5DD59 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8902FE3215E3B14500E5DD59 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8902FE4215E3B14600E5DD59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8902FE4315E3B14600E5DD59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8902FE4515E3B14600E5DD59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Vroom!v3.4/Vroom!v3.4-Prefix.pch";
+				INFOPLIST_FILE = "Vroom!v3.4/Vroom!v3.4-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8902FE4615E3B14600E5DD59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Vroom!v3.4/Vroom!v3.4-Prefix.pch";
+				INFOPLIST_FILE = "Vroom!v3.4/Vroom!v3.4-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8902FE1515E3B14500E5DD59 /* Build configuration list for PBXProject "Vroom!v3.4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8902FE4215E3B14600E5DD59 /* Debug */,
+				8902FE4315E3B14600E5DD59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8902FE4415E3B14600E5DD59 /* Build configuration list for PBXNativeTarget "Vroom!v3.4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8902FE4515E3B14600E5DD59 /* Debug */,
+				8902FE4615E3B14600E5DD59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8902FE1215E3B14500E5DD59 /* Project object */;
+}
