@@ -29,6 +29,7 @@
 		8902FE8115E3DA7600E5DD59 /* CGDTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8902FE8015E3DA7600E5DD59 /* CGDTableViewController.m */; };
 		89B9934C15E43A8E0064FA13 /* logo1.png in Resources */ = {isa = PBXBuildFile; fileRef = 89B9934B15E43A8E0064FA13 /* logo1.png */; };
 		89B9940F15E527300064FA13 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89B9940E15E527300064FA13 /* MapKit.framework */; };
+		89B9941315E540370064FA13 /* CGDMapViewAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 89B9941215E540370064FA13 /* CGDMapViewAnnotation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +64,8 @@
 		8902FE8015E3DA7600E5DD59 /* CGDTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGDTableViewController.m; sourceTree = "<group>"; };
 		89B9934B15E43A8E0064FA13 /* logo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo1.png; sourceTree = "<group>"; };
 		89B9940E15E527300064FA13 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		89B9941115E540370064FA13 /* CGDMapViewAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGDMapViewAnnotation.h; sourceTree = "<group>"; };
+		89B9941215E540370064FA13 /* CGDMapViewAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGDMapViewAnnotation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +128,8 @@
 				8902FE3B15E3B14600E5DD59 /* CGDSecondViewController.h */,
 				8902FE3C15E3B14600E5DD59 /* CGDSecondViewController.m */,
 				8902FE2615E3B14500E5DD59 /* Supporting Files */,
+				89B9941115E540370064FA13 /* CGDMapViewAnnotation.h */,
+				89B9941215E540370064FA13 /* CGDMapViewAnnotation.m */,
 			);
 			path = "Vroom!v3.4";
 			sourceTree = "<group>";
@@ -229,6 +234,7 @@
 				8902FE5E15E3B3EE00E5DD59 /* CGDThirdViewController.m in Sources */,
 				8902FE7915E3CFDA00E5DD59 /* CGDFourthViewController.m in Sources */,
 				8902FE8115E3DA7600E5DD59 /* CGDTableViewController.m in Sources */,
+				89B9941315E540370064FA13 /* CGDMapViewAnnotation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
