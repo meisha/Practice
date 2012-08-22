@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		89B9942C15E561E30064FA13 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89B9942B15E561E30064FA13 /* UIKit.framework */; };
+		89B9942E15E561E30064FA13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89B9942D15E561E30064FA13 /* Foundation.framework */; };
+		89B9943015E561E30064FA13 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89B9942F15E561E30064FA13 /* CoreGraphics.framework */; };
+		89B9943615E561E30064FA13 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 89B9943415E561E30064FA13 /* InfoPlist.strings */; };
+		89B9943815E561E30064FA13 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 89B9943715E561E30064FA13 /* main.m */; };
+		89B9943C15E561E30064FA13 /* CGDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 89B9943B15E561E30064FA13 /* CGDAppDelegate.m */; };
+		89B9943F15E561E30064FA13 /* CGDFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89B9943E15E561E30064FA13 /* CGDFirstViewController.m */; };
+		89B9944115E561E30064FA13 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 89B9944015E561E30064FA13 /* first.png */; };
+		89B9944315E561E30064FA13 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 89B9944215E561E30064FA13 /* first@2x.png */; };
+		89B9944615E561E30064FA13 /* CGDSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89B9944515E561E30064FA13 /* CGDSecondViewController.m */; };
+		89B9944815E561E30064FA13 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 89B9944715E561E30064FA13 /* second.png */; };
+		89B9944A15E561E30064FA13 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 89B9944915E561E30064FA13 /* second@2x.png */; };
+		89B9944D15E561E30064FA13 /* CGDFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89B9944B15E561E30064FA13 /* CGDFirstViewController.xib */; };
+		89B9945015E561E30064FA13 /* CGDSecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89B9944E15E561E30064FA13 /* CGDSecondViewController.xib */; };
+		89B9945915E567E00064FA13 /* CGDDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89B9945715E567E00064FA13 /* CGDDetailViewController.m */; };
+		89B9945A15E567E00064FA13 /* CGDDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89B9945815E567E00064FA13 /* CGDDetailViewController.xib */; };
+		89B9945C15E56CF90064FA13 /* bg1.png in Resources */ = {isa = PBXBuildFile; fileRef = 89B9945B15E56CF90064FA13 /* bg1.png */; };
+		89B9945E15E56F4B0064FA13 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89B9945D15E56F4B0064FA13 /* MapKit.framework */; };
+		89B9946015E5709F0064FA13 /* logo1.png in Resources */ = {isa = PBXBuildFile; fileRef = 89B9945F15E5709F0064FA13 /* logo1.png */; };
+		89B9946215E571600064FA13 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 89B9946115E571600064FA13 /* Icon@2x.png */; };
+		89B9946415E571620064FA13 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 89B9946315E571620064FA13 /* Icon.png */; };
+		89B9946615E5716F0064FA13 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 89B9946515E5716F0064FA13 /* Default@2x.png */; };
+		89B9946815E571710064FA13 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 89B9946715E571710064FA13 /* Default.png */; };
+		89B9946A15E571790064FA13 /* plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 89B9946915E571790064FA13 /* plus.png */; };
+		89B9946C15E5717E0064FA13 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 89B9946B15E5717E0064FA13 /* home.png */; };
+		89B9946E15E571830064FA13 /* events.png in Resources */ = {isa = PBXBuildFile; fileRef = 89B9946D15E571830064FA13 /* events.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		89B9942715E561E30064FA13 /* Vroom!v1.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vroom!v1.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89B9942B15E561E30064FA13 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		89B9942D15E561E30064FA13 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		89B9942F15E561E30064FA13 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		89B9943315E561E30064FA13 /* Vroom!v1.0-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Vroom!v1.0-Info.plist"; sourceTree = "<group>"; };
+		89B9943515E561E30064FA13 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		89B9943715E561E30064FA13 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		89B9943915E561E30064FA13 /* Vroom!v1.0-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vroom!v1.0-Prefix.pch"; sourceTree = "<group>"; };
+		89B9943A15E561E30064FA13 /* CGDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGDAppDelegate.h; sourceTree = "<group>"; };
+		89B9943B15E561E30064FA13 /* CGDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CGDAppDelegate.m; sourceTree = "<group>"; };
+		89B9943D15E561E30064FA13 /* CGDFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGDFirstViewController.h; sourceTree = "<group>"; };
+		89B9943E15E561E30064FA13 /* CGDFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CGDFirstViewController.m; sourceTree = "<group>"; };
+		89B9944015E561E30064FA13 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		89B9944215E561E30064FA13 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		89B9944415E561E30064FA13 /* CGDSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGDSecondViewController.h; sourceTree = "<group>"; };
+		89B9944515E561E30064FA13 /* CGDSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CGDSecondViewController.m; sourceTree = "<group>"; };
+		89B9944715E561E30064FA13 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		89B9944915E561E30064FA13 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		89B9944C15E561E30064FA13 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CGDFirstViewController.xib; sourceTree = "<group>"; };
+		89B9944F15E561E30064FA13 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CGDSecondViewController.xib; sourceTree = "<group>"; };
+		89B9945615E567E00064FA13 /* CGDDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGDDetailViewController.h; sourceTree = "<group>"; };
+		89B9945715E567E00064FA13 /* CGDDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGDDetailViewController.m; sourceTree = "<group>"; };
+		89B9945815E567E00064FA13 /* CGDDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CGDDetailViewController.xib; sourceTree = "<group>"; };
+		89B9945B15E56CF90064FA13 /* bg1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg1.png; sourceTree = "<group>"; };
+		89B9945D15E56F4B0064FA13 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		89B9945F15E5709F0064FA13 /* logo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo1.png; sourceTree = "<group>"; };
+		89B9946115E571600064FA13 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../Icon@2x.png"; sourceTree = "<group>"; };
+		89B9946315E571620064FA13 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../Icon.png; sourceTree = "<group>"; };
+		89B9946515E5716F0064FA13 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
+		89B9946715E571710064FA13 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
+		89B9946915E571790064FA13 /* plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plus.png; sourceTree = "<group>"; };
+		89B9946B15E5717E0064FA13 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		89B9946D15E571830064FA13 /* events.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = events.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89B9942415E561E30064FA13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89B9945E15E56F4B0064FA13 /* MapKit.framework in Frameworks */,
+				89B9942C15E561E30064FA13 /* UIKit.framework in Frameworks */,
+				89B9942E15E561E30064FA13 /* Foundation.framework in Frameworks */,
+				89B9943015E561E30064FA13 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89B9941C15E561E30064FA13 = {
+			isa = PBXGroup;
+			children = (
+				89B9943115E561E30064FA13 /* Vroom!v1.0 */,
+				89B9942A15E561E30064FA13 /* Frameworks */,
+				89B9942815E561E30064FA13 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		89B9942815E561E30064FA13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89B9942715E561E30064FA13 /* Vroom!v1.0.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89B9942A15E561E30064FA13 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89B9945D15E56F4B0064FA13 /* MapKit.framework */,
+				89B9942B15E561E30064FA13 /* UIKit.framework */,
+				89B9942D15E561E30064FA13 /* Foundation.framework */,
+				89B9942F15E561E30064FA13 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		89B9943115E561E30064FA13 /* Vroom!v1.0 */ = {
+			isa = PBXGroup;
+			children = (
+				89B9943A15E561E30064FA13 /* CGDAppDelegate.h */,
+				89B9943B15E561E30064FA13 /* CGDAppDelegate.m */,
+				89B9943D15E561E30064FA13 /* CGDFirstViewController.h */,
+				89B9943E15E561E30064FA13 /* CGDFirstViewController.m */,
+				89B9944B15E561E30064FA13 /* CGDFirstViewController.xib */,
+				89B9944415E561E30064FA13 /* CGDSecondViewController.h */,
+				89B9944515E561E30064FA13 /* CGDSecondViewController.m */,
+				89B9944E15E561E30064FA13 /* CGDSecondViewController.xib */,
+				89B9945615E567E00064FA13 /* CGDDetailViewController.h */,
+				89B9945715E567E00064FA13 /* CGDDetailViewController.m */,
+				89B9945815E567E00064FA13 /* CGDDetailViewController.xib */,
+				89B9943215E561E30064FA13 /* Supporting Files */,
+			);
+			path = "Vroom!v1.0";
+			sourceTree = "<group>";
+		};
+		89B9943215E561E30064FA13 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				89B9946715E571710064FA13 /* Default.png */,
+				89B9946515E5716F0064FA13 /* Default@2x.png */,
+				89B9946315E571620064FA13 /* Icon.png */,
+				89B9946115E571600064FA13 /* Icon@2x.png */,
+				89B9946D15E571830064FA13 /* events.png */,
+				89B9946B15E5717E0064FA13 /* home.png */,
+				89B9946915E571790064FA13 /* plus.png */,
+				89B9945F15E5709F0064FA13 /* logo1.png */,
+				89B9945B15E56CF90064FA13 /* bg1.png */,
+				89B9944915E561E30064FA13 /* second@2x.png */,
+				89B9944715E561E30064FA13 /* second.png */,
+				89B9944015E561E30064FA13 /* first.png */,
+				89B9944215E561E30064FA13 /* first@2x.png */,
+				89B9943315E561E30064FA13 /* Vroom!v1.0-Info.plist */,
+				89B9943415E561E30064FA13 /* InfoPlist.strings */,
+				89B9943715E561E30064FA13 /* main.m */,
+				89B9943915E561E30064FA13 /* Vroom!v1.0-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89B9942615E561E30064FA13 /* Vroom!v1.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89B9945315E561E30064FA13 /* Build configuration list for PBXNativeTarget "Vroom!v1.0" */;
+			buildPhases = (
+				89B9942315E561E30064FA13 /* Sources */,
+				89B9942415E561E30064FA13 /* Frameworks */,
+				89B9942515E561E30064FA13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Vroom!v1.0";
+			productName = "Vroom!v1.0";
+			productReference = 89B9942715E561E30064FA13 /* Vroom!v1.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89B9941E15E561E30064FA13 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CGD;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Coder Girl Design";
+			};
+			buildConfigurationList = 89B9942115E561E30064FA13 /* Build configuration list for PBXProject "Vroom!v1.0" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 89B9941C15E561E30064FA13;
+			productRefGroup = 89B9942815E561E30064FA13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89B9942615E561E30064FA13 /* Vroom!v1.0 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89B9942515E561E30064FA13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89B9943615E561E30064FA13 /* InfoPlist.strings in Resources */,
+				89B9944115E561E30064FA13 /* first.png in Resources */,
+				89B9944315E561E30064FA13 /* first@2x.png in Resources */,
+				89B9944815E561E30064FA13 /* second.png in Resources */,
+				89B9944A15E561E30064FA13 /* second@2x.png in Resources */,
+				89B9944D15E561E30064FA13 /* CGDFirstViewController.xib in Resources */,
+				89B9945015E561E30064FA13 /* CGDSecondViewController.xib in Resources */,
+				89B9945A15E567E00064FA13 /* CGDDetailViewController.xib in Resources */,
+				89B9945C15E56CF90064FA13 /* bg1.png in Resources */,
+				89B9946015E5709F0064FA13 /* logo1.png in Resources */,
+				89B9946215E571600064FA13 /* Icon@2x.png in Resources */,
+				89B9946415E571620064FA13 /* Icon.png in Resources */,
+				89B9946615E5716F0064FA13 /* Default@2x.png in Resources */,
+				89B9946815E571710064FA13 /* Default.png in Resources */,
+				89B9946A15E571790064FA13 /* plus.png in Resources */,
+				89B9946C15E5717E0064FA13 /* home.png in Resources */,
+				89B9946E15E571830064FA13 /* events.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89B9942315E561E30064FA13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89B9943815E561E30064FA13 /* main.m in Sources */,
+				89B9943C15E561E30064FA13 /* CGDAppDelegate.m in Sources */,
+				89B9943F15E561E30064FA13 /* CGDFirstViewController.m in Sources */,
+				89B9944615E561E30064FA13 /* CGDSecondViewController.m in Sources */,
+				89B9945915E567E00064FA13 /* CGDDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		89B9943415E561E30064FA13 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89B9943515E561E30064FA13 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		89B9944B15E561E30064FA13 /* CGDFirstViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89B9944C15E561E30064FA13 /* en */,
+			);
+			name = CGDFirstViewController.xib;
+			sourceTree = "<group>";
+		};
+		89B9944E15E561E30064FA13 /* CGDSecondViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89B9944F15E561E30064FA13 /* en */,
+			);
+			name = CGDSecondViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		89B9945115E561E30064FA13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		89B9945215E561E30064FA13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		89B9945415E561E30064FA13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Vroom!v1.0/Vroom!v1.0-Prefix.pch";
+				INFOPLIST_FILE = "Vroom!v1.0/Vroom!v1.0-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		89B9945515E561E30064FA13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Vroom!v1.0/Vroom!v1.0-Prefix.pch";
+				INFOPLIST_FILE = "Vroom!v1.0/Vroom!v1.0-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89B9942115E561E30064FA13 /* Build configuration list for PBXProject "Vroom!v1.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89B9945115E561E30064FA13 /* Debug */,
+				89B9945215E561E30064FA13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89B9945315E561E30064FA13 /* Build configuration list for PBXNativeTarget "Vroom!v1.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89B9945415E561E30064FA13 /* Debug */,
+				89B9945515E561E30064FA13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 89B9941E15E561E30064FA13 /* Project object */;
+}
