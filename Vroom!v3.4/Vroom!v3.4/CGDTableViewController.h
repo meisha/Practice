@@ -10,7 +10,10 @@
 
 @interface CGDTableViewController : UITableViewController <UITableViewDataSource, UITableViewDelegate>
 {
-    
+    NSArray *listData;
+    IBOutlet UILabel *eventName;
+    IBOutlet UILabel *eventPlace;
+    IBOutlet UITableView *myTableView;
     
 }
 @property (strong, nonatomic) NSArray *listData;
