@@ -16,11 +16,9 @@
 		89B9943F15E561E30064FA13 /* CGDFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89B9943E15E561E30064FA13 /* CGDFirstViewController.m */; };
 		89B9944115E561E30064FA13 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 89B9944015E561E30064FA13 /* first.png */; };
 		89B9944315E561E30064FA13 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 89B9944215E561E30064FA13 /* first@2x.png */; };
-		89B9944615E561E30064FA13 /* CGDSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89B9944515E561E30064FA13 /* CGDSecondViewController.m */; };
 		89B9944815E561E30064FA13 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 89B9944715E561E30064FA13 /* second.png */; };
 		89B9944A15E561E30064FA13 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 89B9944915E561E30064FA13 /* second@2x.png */; };
 		89B9944D15E561E30064FA13 /* CGDFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89B9944B15E561E30064FA13 /* CGDFirstViewController.xib */; };
-		89B9945015E561E30064FA13 /* CGDSecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89B9944E15E561E30064FA13 /* CGDSecondViewController.xib */; };
 		89B9945915E567E00064FA13 /* CGDDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89B9945715E567E00064FA13 /* CGDDetailViewController.m */; };
 		89B9945A15E567E00064FA13 /* CGDDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89B9945815E567E00064FA13 /* CGDDetailViewController.xib */; };
 		89B9945C15E56CF90064FA13 /* bg1.png in Resources */ = {isa = PBXBuildFile; fileRef = 89B9945B15E56CF90064FA13 /* bg1.png */; };
@@ -33,6 +31,10 @@
 		89B9946A15E571790064FA13 /* plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 89B9946915E571790064FA13 /* plus.png */; };
 		89B9946C15E5717E0064FA13 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 89B9946B15E5717E0064FA13 /* home.png */; };
 		89B9946E15E571830064FA13 /* events.png in Resources */ = {isa = PBXBuildFile; fileRef = 89B9946D15E571830064FA13 /* events.png */; };
+		89B9947215E576CA0064FA13 /* CGDAddEventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89B9947015E576C90064FA13 /* CGDAddEventViewController.m */; };
+		89B9947315E576CA0064FA13 /* CGDAddEventViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89B9947115E576CA0064FA13 /* CGDAddEventViewController.xib */; };
+		89B9947715E584660064FA13 /* CGDEventTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89B9947515E584660064FA13 /* CGDEventTableViewController.m */; };
+		89B9947815E584660064FA13 /* CGDEventTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89B9947615E584660064FA13 /* CGDEventTableViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,12 +52,9 @@
 		89B9943E15E561E30064FA13 /* CGDFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CGDFirstViewController.m; sourceTree = "<group>"; };
 		89B9944015E561E30064FA13 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		89B9944215E561E30064FA13 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		89B9944415E561E30064FA13 /* CGDSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGDSecondViewController.h; sourceTree = "<group>"; };
-		89B9944515E561E30064FA13 /* CGDSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CGDSecondViewController.m; sourceTree = "<group>"; };
 		89B9944715E561E30064FA13 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		89B9944915E561E30064FA13 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 		89B9944C15E561E30064FA13 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CGDFirstViewController.xib; sourceTree = "<group>"; };
-		89B9944F15E561E30064FA13 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CGDSecondViewController.xib; sourceTree = "<group>"; };
 		89B9945615E567E00064FA13 /* CGDDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGDDetailViewController.h; sourceTree = "<group>"; };
 		89B9945715E567E00064FA13 /* CGDDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGDDetailViewController.m; sourceTree = "<group>"; };
 		89B9945815E567E00064FA13 /* CGDDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CGDDetailViewController.xib; sourceTree = "<group>"; };
@@ -69,6 +68,12 @@
 		89B9946915E571790064FA13 /* plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plus.png; sourceTree = "<group>"; };
 		89B9946B15E5717E0064FA13 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
 		89B9946D15E571830064FA13 /* events.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = events.png; sourceTree = "<group>"; };
+		89B9946F15E576C90064FA13 /* CGDAddEventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGDAddEventViewController.h; sourceTree = "<group>"; };
+		89B9947015E576C90064FA13 /* CGDAddEventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGDAddEventViewController.m; sourceTree = "<group>"; };
+		89B9947115E576CA0064FA13 /* CGDAddEventViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CGDAddEventViewController.xib; sourceTree = "<group>"; };
+		89B9947415E584660064FA13 /* CGDEventTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGDEventTableViewController.h; sourceTree = "<group>"; };
+		89B9947515E584660064FA13 /* CGDEventTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGDEventTableViewController.m; sourceTree = "<group>"; };
+		89B9947615E584660064FA13 /* CGDEventTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CGDEventTableViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,9 +127,12 @@
 				89B9943D15E561E30064FA13 /* CGDFirstViewController.h */,
 				89B9943E15E561E30064FA13 /* CGDFirstViewController.m */,
 				89B9944B15E561E30064FA13 /* CGDFirstViewController.xib */,
-				89B9944415E561E30064FA13 /* CGDSecondViewController.h */,
-				89B9944515E561E30064FA13 /* CGDSecondViewController.m */,
-				89B9944E15E561E30064FA13 /* CGDSecondViewController.xib */,
+				89B9947415E584660064FA13 /* CGDEventTableViewController.h */,
+				89B9947515E584660064FA13 /* CGDEventTableViewController.m */,
+				89B9947615E584660064FA13 /* CGDEventTableViewController.xib */,
+				89B9946F15E576C90064FA13 /* CGDAddEventViewController.h */,
+				89B9947015E576C90064FA13 /* CGDAddEventViewController.m */,
+				89B9947115E576CA0064FA13 /* CGDAddEventViewController.xib */,
 				89B9945615E567E00064FA13 /* CGDDetailViewController.h */,
 				89B9945715E567E00064FA13 /* CGDDetailViewController.m */,
 				89B9945815E567E00064FA13 /* CGDDetailViewController.xib */,
@@ -215,7 +223,6 @@
 				89B9944815E561E30064FA13 /* second.png in Resources */,
 				89B9944A15E561E30064FA13 /* second@2x.png in Resources */,
 				89B9944D15E561E30064FA13 /* CGDFirstViewController.xib in Resources */,
-				89B9945015E561E30064FA13 /* CGDSecondViewController.xib in Resources */,
 				89B9945A15E567E00064FA13 /* CGDDetailViewController.xib in Resources */,
 				89B9945C15E56CF90064FA13 /* bg1.png in Resources */,
 				89B9946015E5709F0064FA13 /* logo1.png in Resources */,
@@ -226,6 +233,8 @@
 				89B9946A15E571790064FA13 /* plus.png in Resources */,
 				89B9946C15E5717E0064FA13 /* home.png in Resources */,
 				89B9946E15E571830064FA13 /* events.png in Resources */,
+				89B9947315E576CA0064FA13 /* CGDAddEventViewController.xib in Resources */,
+				89B9947815E584660064FA13 /* CGDEventTableViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,8 +248,9 @@
 				89B9943815E561E30064FA13 /* main.m in Sources */,
 				89B9943C15E561E30064FA13 /* CGDAppDelegate.m in Sources */,
 				89B9943F15E561E30064FA13 /* CGDFirstViewController.m in Sources */,
-				89B9944615E561E30064FA13 /* CGDSecondViewController.m in Sources */,
 				89B9945915E567E00064FA13 /* CGDDetailViewController.m in Sources */,
+				89B9947215E576CA0064FA13 /* CGDAddEventViewController.m in Sources */,
+				89B9947715E584660064FA13 /* CGDEventTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,14 +271,6 @@
 				89B9944C15E561E30064FA13 /* en */,
 			);
 			name = CGDFirstViewController.xib;
-			sourceTree = "<group>";
-		};
-		89B9944E15E561E30064FA13 /* CGDSecondViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				89B9944F15E561E30064FA13 /* en */,
-			);
-			name = CGDSecondViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

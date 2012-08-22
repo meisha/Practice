@@ -10,9 +10,9 @@
 
 #import "CGDFirstViewController.h"
 
-#import "CGDSecondViewController.h"
+#import "CGDEventTableViewController.h"
 
-#import "CGDDetailViewController.h"
+#import "CGDAddEventViewController.h"
 
 @implementation CGDAppDelegate
 
@@ -21,8 +21,8 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     UIViewController *viewController1 = [[CGDFirstViewController alloc] initWithNibName:@"CGDFirstViewController" bundle:nil];
-    UIViewController *viewController2 = [[CGDSecondViewController alloc] initWithNibName:@"CGDSecondViewController" bundle:nil];
-    UIViewController *viewController3 = [[CGDDetailViewController alloc] initWithNibName:@"CGDDetailViewController" bundle:nil];
+    UIViewController *viewController2 = [[CGDEventTableViewController alloc] initWithNibName:@"CGDEventTableViewController" bundle:nil];
+    UIViewController *viewController3 = [[CGDAddEventViewController alloc] initWithNibName:@"CGDAddEventViewController" bundle:nil];
     
     self.tabBarController = [[UITabBarController alloc] init];
     self.tabBarController.viewControllers = @[viewController1, viewController2, viewController3];

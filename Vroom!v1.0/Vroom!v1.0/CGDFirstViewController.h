@@ -9,6 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface CGDFirstViewController : UIViewController
-
+{
+    UIButton *submitButton;
+}
+@property (nonatomic, retain)IBOutlet UIButton *submitButton;
+-(IBAction)clickSubmit:(id)sender;
 -(IBAction)closeKeyboard:(id)sender;
 @end

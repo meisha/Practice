@@ -19,8 +19,7 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
-        self.title = NSLocalizedString(@"Add Event", @"First");
-        self.tabBarItem.image = [UIImage imageNamed:@"plus"];
+        
     }
     return self;
 }
