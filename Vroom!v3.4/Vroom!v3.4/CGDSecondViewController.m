@@ -22,6 +22,11 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    MKMapView *mapView = (MKMapView*)self.view;
+    CLLocationCoordinate2D coordinate;
+    coordinate.latitude = 49.2802;
+    coordinate.longitude = 123.1182;
+    mapView.region = MKCoordinateRegionMakeWithDistance(coordinate, 2000, 2000);
 }
 
 - (void)viewDidUnload
