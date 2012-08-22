@@ -13,6 +13,7 @@
 {
     IBOutlet UILabel *eventTitle;
     IBOutlet UITextView *eventDetails;
+    MKMapView *mapView;
     
 }
 
