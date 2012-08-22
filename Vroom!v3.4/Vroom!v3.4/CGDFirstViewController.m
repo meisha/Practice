@@ -31,10 +31,15 @@
 {
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
+-(IBAction)backgroundTap:(id)sender
+{
+    [_zipField resignFirstResponder];
+}
 //::::Close Keyboard::::
 -(IBAction)closeKeyboard:(id)sender
 {
     [sender resignFirstResponder];
 }
+
 
 @end

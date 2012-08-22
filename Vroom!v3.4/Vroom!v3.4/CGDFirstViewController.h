@@ -12,6 +12,8 @@
 {
     
 }
+@property (strong, nonatomic) IBOutlet UITextField *zipField;
+-(IBAction)backgroundTap:(id)sender;
 
 -(IBAction)closeKeyboard:(id)sender;
 

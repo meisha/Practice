@@ -17,7 +17,7 @@
 //    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
 //    // Override point for customization after application launch.
 //    UIViewController *viewController1 = [[CGDFirstViewController alloc] initWithNibName:@"CGDFirstViewController" bundle:nil];
-//    UIViewController *viewController2 = [[CGDSecondViewController alloc] initWithNibName:@"CGDSecondViewController" bundle:nil];
+//    UIViewController *viewController2 = [[CGDSecondViewController alloc] initWithNibName:@"CGDTableViewController" bundle:nil];
 //    UIViewController *viewController3 = [[CGDThirdViewController alloc] initWithNibName:@"CGDThirdController" bundle:nil];
 //   
 //    self.tabBarController = [[UITabBarController alloc] init];

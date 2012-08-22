@@ -18,15 +18,18 @@
 @end
 
 @implementation CGDSecondViewController
+@synthesize mapView;
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    MKMapView *mapView = (MKMapView*)self.view;
-    CLLocationCoordinate2D coordinate;
-    coordinate.latitude = 36.99764;
-    coordinate.longitude = -79.891977;
+    
+    CLLocationCoordinate2D location;
+    location.latitude = 36.99764;
+    location.longitude = -79.891977;
+    
+    
     
 }
 

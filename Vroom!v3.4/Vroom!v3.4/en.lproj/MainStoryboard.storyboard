@@ -21,7 +21,8 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
-                                    <action selector="closeKeyboard:" destination="2" eventType="editingDidEndOnExit" id="FSK-cV-fB9"/>
+                                    <action selector="backgroundTap:" destination="2" eventType="editingDidEndOnExit" id="WNg-oP-17N"/>
+                                    <action selector="closeKeyboard:" destination="2" eventType="editingDidEndOnExit" id="O59-2x-SeH"/>
                                 </connections>
                             </textField>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" id="MNS-7i-9Iz">
@@ -190,7 +191,6 @@
                             <outlet property="delegate" destination="T5k-zf-1JZ" id="ck8-Mb-kbN"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Events" image="events.png" id="Bcb-Hf-xyD"/>
                     <navigationItem key="navigationItem" title="Events " id="uca-3B-TTh">
                         <barButtonItem key="backBarButtonItem" title="Back" id="EP5-1T-V79"/>
                         <barButtonItem key="leftBarButtonItem" title="Home" id="pRs-30-gsa">
@@ -201,6 +201,7 @@
                     </navigationItem>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                 </tableViewController>
+                <tabBarItem title="Events" image="events.png" id="Bcb-Hf-xyD"/>
             </objects>
             <point key="canvasLocation" x="1028" y="-61"/>
         </scene>
@@ -428,7 +429,9 @@
         <class className="CGDFirstViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/CGDFirstViewController.h"/>
             <relationships>
+                <relationship kind="action" name="backgroundTap:"/>
                 <relationship kind="action" name="closeKeyboard:"/>
+                <relationship kind="outlet" name="zipField" candidateClass="UITextField"/>
             </relationships>
         </class>
         <class className="CGDSecondViewController" superclassName="UIViewController">
@@ -452,7 +455,7 @@
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="n8S-zg-JH1"/>
+        <segue reference="NZ8-7N-TZt"/>
         <segue reference="NHY-ph-AFe"/>
     </inferredMetricsTieBreakers>
 </document>
