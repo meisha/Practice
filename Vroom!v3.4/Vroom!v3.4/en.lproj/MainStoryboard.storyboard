@@ -11,7 +11,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="10" sceneMemberID="firstResponder"/>
                 <viewController title="First" id="2" customClass="CGDFirstViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="16">
-                        <rect key="frame" x="0.0" y="20" width="320" height="411"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Zip Code" textAlignment="center" minimumFontSize="17" id="sH9-8P-y0m">
@@ -198,6 +198,11 @@
                     <tabBarItem key="tabBarItem" title="Events" image="events.png" id="Bcb-Hf-xyD"/>
                     <navigationItem key="navigationItem" title="Events" id="uca-3B-TTh">
                         <barButtonItem key="backBarButtonItem" title="Back" id="EP5-1T-V79"/>
+                        <barButtonItem key="leftBarButtonItem" title="Home" id="pRs-30-gsa">
+                            <connections>
+                                <segue destination="2" kind="modal" id="NHY-ph-AFe"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </tableViewController>
             </objects>
@@ -428,7 +433,8 @@
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
+        <segue reference="n8S-zg-JH1"/>
+        <segue reference="NHY-ph-AFe"/>
         <segue reference="rge-sZ-tDT"/>
-        <segue reference="NZ8-7N-TZt"/>
     </inferredMetricsTieBreakers>
 </document>
