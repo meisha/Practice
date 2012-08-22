@@ -11,6 +11,7 @@
 #import "CGDThirdViewController.h"
 #import "CGDFourthViewController.h"
 #import "CGDTableViewController.h"
+#import <MapKit/MapKit.h>
 
 @interface CGDSecondViewController ()
 
@@ -26,7 +27,6 @@
     CLLocationCoordinate2D coordinate;
     coordinate.latitude = 49.2802;
     coordinate.longitude = 123.1182;
-    mapView.region = MKCoordinateRegionMakeWithDistance(coordinate, 2000, 2000);
 }
 
 - (void)viewDidUnload

@@ -28,6 +28,7 @@
 		8902FE7915E3CFDA00E5DD59 /* CGDFourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8902FE7815E3CFDA00E5DD59 /* CGDFourthViewController.m */; };
 		8902FE8115E3DA7600E5DD59 /* CGDTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8902FE8015E3DA7600E5DD59 /* CGDTableViewController.m */; };
 		89B9934C15E43A8E0064FA13 /* logo1.png in Resources */ = {isa = PBXBuildFile; fileRef = 89B9934B15E43A8E0064FA13 /* logo1.png */; };
+		89B9940F15E527300064FA13 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89B9940E15E527300064FA13 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +62,7 @@
 		8902FE7F15E3DA7600E5DD59 /* CGDTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGDTableViewController.h; sourceTree = "<group>"; };
 		8902FE8015E3DA7600E5DD59 /* CGDTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGDTableViewController.m; sourceTree = "<group>"; };
 		89B9934B15E43A8E0064FA13 /* logo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo1.png; sourceTree = "<group>"; };
+		89B9940E15E527300064FA13 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89B9940F15E527300064FA13 /* MapKit.framework in Frameworks */,
 				8902FE2015E3B14500E5DD59 /* UIKit.framework in Frameworks */,
 				8902FE2215E3B14500E5DD59 /* Foundation.framework in Frameworks */,
 				8902FE2415E3B14500E5DD59 /* CoreGraphics.framework in Frameworks */,
@@ -80,6 +83,7 @@
 		8902FE1015E3B14500E5DD59 = {
 			isa = PBXGroup;
 			children = (
+				89B9940E15E527300064FA13 /* MapKit.framework */,
 				8902FE2515E3B14500E5DD59 /* Vroom!v3.4 */,
 				8902FE1E15E3B14500E5DD59 /* Frameworks */,
 				8902FE1C15E3B14500E5DD59 /* Products */,
