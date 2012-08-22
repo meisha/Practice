@@ -312,6 +312,20 @@
                                 <rect key="frame" x="0.0" y="0.0" width="330" height="411"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="tv3-OU-LxP">
+                                <rect key="frame" x="139" y="32" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="event details go here" textAlignment="center" id="bQv-Cg-F2t">
+                                <rect key="frame" x="40" y="61" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -319,6 +333,10 @@
                         <barButtonItem key="backBarButtonItem" title="Back" id="Ame-W3-ke6"/>
                     </navigationItem>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="eventDetails" destination="bQv-Cg-F2t" id="f5l-ZK-Pwa"/>
+                        <outlet property="eventTitle" destination="tv3-OU-LxP" id="s8h-Yj-ah9"/>
+                    </connections>
                 </viewController>
             </objects>
             <point key="canvasLocation" x="1465" y="505"/>
@@ -385,6 +403,10 @@
         </class>
         <class className="CGDSecondViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/CGDSecondViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="eventDetails" candidateClass="UITextView"/>
+                <relationship kind="outlet" name="eventTitle" candidateClass="UILabel"/>
+            </relationships>
         </class>
         <class className="CGDThirdViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/CGDThirdViewController.h"/>

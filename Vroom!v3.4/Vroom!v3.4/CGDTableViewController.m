@@ -30,12 +30,12 @@
 {
     [super viewDidLoad];
 
-    NSArray *array = [[NSArray alloc] initWithObjects:
+    listData = [[NSArray alloc] initWithObjects:
                       @"Midpoint Cruise-in",
                       @"Floyd Auto Fair",
                       @"Basset Truck Show",
                       nil];
-    self.listData = array;
+    
     
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;

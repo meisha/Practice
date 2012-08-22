@@ -10,6 +10,8 @@
 
 @interface CGDSecondViewController : UIViewController 
 {
+    IBOutlet UILabel *eventTitle;
+    IBOutlet UITextView *eventDetails;
     
 }
 
