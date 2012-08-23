@@ -15,6 +15,8 @@
 #import "CGDAddEventViewController.h"
 
 @implementation CGDAppDelegate
+@synthesize navController;
+
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {

@@ -83,7 +83,6 @@
 		8902FE1015E3B14500E5DD59 = {
 			isa = PBXGroup;
 			children = (
-				89B9940E15E527300064FA13 /* MapKit.framework */,
 				8902FE2515E3B14500E5DD59 /* Vroom!v3.4 */,
 				8902FE1E15E3B14500E5DD59 /* Frameworks */,
 				8902FE1C15E3B14500E5DD59 /* Products */,
@@ -101,6 +100,7 @@
 		8902FE1E15E3B14500E5DD59 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				89B9940E15E527300064FA13 /* MapKit.framework */,
 				8902FE1F15E3B14500E5DD59 /* UIKit.framework */,
 				8902FE2115E3B14500E5DD59 /* Foundation.framework */,
 				8902FE2315E3B14500E5DD59 /* CoreGraphics.framework */,

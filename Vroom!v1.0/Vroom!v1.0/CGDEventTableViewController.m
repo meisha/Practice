@@ -40,7 +40,8 @@
     
     NSArray *array = [[NSArray alloc] initWithObjects:
                       @"MidPoint Cruise-In",
-                      @"Floyd Auto Fair",
+                      @"Floyd Auto Fair"
+                      @"Basset Truck Show",
                       nil];
     
     self.listData = array;

@@ -1,35 +1,19 @@
 //
 //  CGDAppDelegate.m
-//  Vroom!v3.4
+//  Vroom!v1.5
 //
-//  Created by S. Meisha Ray on 8/21/12.
+//  Created by S. Meisha Ray on 8/22/12.
 //  Copyright (c) 2012 Coder Girl Design. All rights reserved.
 //
 
 #import "CGDAppDelegate.h"
-#import "CGDFirstViewController.h"
-#import "CGDSecondViewController.h"
-#import "CGDThirdViewController.h"
-#import "CGDFourthViewController.h"
-#import "CGDTableViewController.h"
 
 @implementation CGDAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-//    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-//    // Override point for customization after application launch.
-//    UIViewController *viewController1 = [[CGDFirstViewController alloc] initWithNibName:@"CGDFirstViewController" bundle:nil];
-//    UIViewController *viewController2 = [[CGDSecondViewController alloc] initWithNibName:@"CGDTableViewController" bundle:nil];
-//    UIViewController *viewController3 = [[CGDThirdViewController alloc] initWithNibName:@"CGDThirdController" bundle:nil];
-//   
-//    self.tabBarController = [[UITabBarController alloc] init];
-//    //::::tab bar color::::
-//    self.tabBarController.tabBar.tintColor=[UIColor colorWithRed:0.6 green:0.2 blue:0.2 alpha:1];
-//    self.tabBarController.viewControllers = @[viewController1, viewController2, viewController3];
-//    self.window.rootViewController = self.tabBarController;
-//    [self.window makeKeyAndVisible];
-return YES;
+    // Override point for customization after application launch.
+    return YES;
 }
 							
 - (void)applicationWillResignActive:(UIApplication *)application
