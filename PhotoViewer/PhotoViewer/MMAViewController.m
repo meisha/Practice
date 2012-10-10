@@ -27,14 +27,14 @@
     UIImagePickerController *albPickerController = [[UIImagePickerController alloc] init];
     if (albPickerController != nil)
     {
-        albPickerController.sourceType = UIImagePickerControllerSourceTypePhotoLibrary;
+        albPickerController.sourceType = UIImagePickerControllerSourceTypeSavedPhotosAlbum;
         
         //::::SET UP DELEGATE::::
        albPickerController.delegate = self;
         
-        albPickerController.allowsEditing = true;
+        albPickerController.allowsEditing = TRUE;
         
-        [self presentModalViewController:albPickerController animated:true];
+        [self presentModalViewController:albPickerController animated:TRUE];
     }
 }
 //::::CAMERA BUTTON::::
@@ -48,9 +48,9 @@
         camPickerController.delegate = self;
         
         //camPickerController.allowsEditing = false;
-        camPickerController.allowsEditing = true;
+        camPickerController.allowsEditing = TRUE;
         
-        [self presentModalViewController:camPickerController animated:true];
+        [self presentModalViewController:camPickerController animated:TRUE];
         
     }
 
@@ -83,11 +83,11 @@
     {
         vidPickerController.sourceType = UIImagePickerControllerSourceTypeCamera;
         vidPickerController.delegate = self;
-        vidPickerController.allowsEditing = false;
+        vidPickerController.allowsEditing = FALSE;
         vidPickerController.videoQuality = UIImagePickerControllerQualityTypeMedium;
         vidPickerController.mediaTypes = [NSArray arrayWithObjects:(NSString*) kUTTypeMovie, nil];
         
-        [self presentModalViewController:vidPickerController animated:true];
+        [self presentModalViewController:vidPickerController animated:TRUE];
     }
 }
 
@@ -107,7 +107,7 @@
         scaledImageView.image = scaledImage;
         
 //::::SAVES IMAGE TO THE PHOTO ALBUM::::
-        UIImageWriteToSavedPhotosAlbum(scaledImage, self, @selector(image:didFinishSavingWithError:contextInfo:), nil);
+//        UIImageWriteToSavedPhotosAlbum(scaledImage, self, @selector(image:didFinishSavingWithError:contextInfo:), nil);
     }
     
     //::::VIDEO CODE::::
@@ -122,7 +122,7 @@
     }
     
     //[picker dismissModalViewControllerAnimated:true];
-    [self dismissModalViewControllerAnimated:true];
+    [self dismissModalViewControllerAnimated:TRUE];
     
 }
 
@@ -154,7 +154,7 @@
 //::::USER SELECTED CANCEL::::
 -(void)imagePickerControllerDidCancel:(UIImagePickerController *)picker
 {
-    [picker dismissModalViewControllerAnimated:true];
+    [picker dismissModalViewControllerAnimated:TRUE];
     //[self dismissModalViewControllerAnimated:true];
 }
 - (void)didReceiveMemoryWarning
@@ -171,6 +171,10 @@
 //::::SAVE BUTTON::::
 -(IBAction)onClickSave:(id)sender
 {
+    UIImageWriteToSavedPhotosAlbum(photoImageView.image, self, @selector(image:didFinishSavingWithError:contextInfo:), nil);
+    UIImageWriteToSavedPhotosAlbum(scaledImageView.image, self, @selector(image:didFinishSavingWithError:contextInfo:), nil);
+    
+
     UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Save was Successful"
                                                     message:@""
                                                    delegate:nil
