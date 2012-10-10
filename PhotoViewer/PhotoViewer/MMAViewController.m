@@ -17,6 +17,8 @@
 
 - (void)viewDidLoad
 {
+    
+    instructions.hidden = FALSE;
     album.hidden = FALSE;
     CaptureImage.hidden = FALSE;
     video.hidden = FALSE;
