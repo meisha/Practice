@@ -27,7 +27,7 @@
     UIImagePickerController *albPickerController = [[UIImagePickerController alloc] init];
     if (albPickerController != nil)
     {
-        albPickerController.sourceType = UIImagePickerControllerSourceTypeSavedPhotosAlbum;
+        albPickerController.sourceType = UIImagePickerControllerSourceTypePhotoLibrary;
         
         //::::SET UP DELEGATE::::
        albPickerController.delegate = self;
@@ -47,13 +47,34 @@
         //::::SET UP DELEGATE::::
         camPickerController.delegate = self;
         
-        camPickerController.allowsEditing = false;
-        //camPickerController.allowsEditing = true;
+        //camPickerController.allowsEditing = false;
+        camPickerController.allowsEditing = true;
         
         [self presentModalViewController:camPickerController animated:true];
+        
     }
 
 }
+//::::SAVING THE IMAGE:::://'
+-(void)image:(UIImage*)image didFinishSavingWithError:(NSError*)error contextInfo:(void*)contextInfo
+{
+    //::::AN ERROR HAPPENEND WHILE SAVING THE IMAGE::::
+    if (error != nil)
+    {
+        NSLog(@"%@", [error description]);
+    }
+    else
+    {
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Save was Successful"
+                                                        message:@""
+                                                       delegate:nil
+                                              cancelButtonTitle:@"OK"
+                                              otherButtonTitles: nil];
+        [alert show];
+        NSLog(@"Save was a success!");
+    }
+}
+
 //::::VIDEO BUTTON::::
 -(IBAction)onClickVideo:(id)sender
 {
@@ -85,7 +106,7 @@
     {
         scaledImageView.image = scaledImage;
         
-//::::SAVES IMAGE TO THE PHOTO ALBUM::::(NOT WORKING)
+//::::SAVES IMAGE TO THE PHOTO ALBUM::::
         UIImageWriteToSavedPhotosAlbum(scaledImage, self, @selector(image:didFinishSavingWithError:contextInfo:), nil);
     }
     
@@ -100,20 +121,9 @@
         UISaveVideoAtPathToSavedPhotosAlbum(vidPath, self, @selector(video:didFinishSavingWithError:contextInfo:), nil);
     }
     
-    [picker dismissModalViewControllerAnimated:true];
-}
-//::::SAVING THE IMAGE:::://'
--(void)image:(UIImage*)image didFinishSavingWithError:(NSError*)error contextInfo:(void*)contextInfo
-{
-    //::::AN ERROR HAPPENEND WHILE SAVING THE IMAGE::::
-    if (error != nil)
-    {
-        NSLog(@"%@", [error description]);
-    }
-    else
-    {
-        NSLog(@"Save was a success!");
-    }
+    //[picker dismissModalViewControllerAnimated:true];
+    [self dismissModalViewControllerAnimated:true];
+    
 }
 
 //::::TRIGGERS THE SAVE FOR VIDEO::::
@@ -121,9 +131,22 @@
 {
     if (error != nil)
     {
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Save was not Successful"
+                                                        message:@""
+                                                       delegate:nil
+                                              cancelButtonTitle:@"Try Again"
+                                              otherButtonTitles: nil];
+        [alert show];
+
         NSLog(@"Error saving file");
     }
     else{
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Save was Successful"
+                                                        message:@""
+                                                       delegate:nil
+                                              cancelButtonTitle:@"OK"
+                                              otherButtonTitles: nil];
+        [alert show];
         NSLog(@"save was complete");
     }
 }
@@ -132,6 +155,7 @@
 -(void)imagePickerControllerDidCancel:(UIImagePickerController *)picker
 {
     [picker dismissModalViewControllerAnimated:true];
+    //[self dismissModalViewControllerAnimated:true];
 }
 - (void)didReceiveMemoryWarning
 {
@@ -147,6 +171,12 @@
 //::::SAVE BUTTON::::
 -(IBAction)onClickSave:(id)sender
 {
-    
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Save was Successful"
+                                                    message:@""
+                                                   delegate:nil
+                                          cancelButtonTitle:@"OK"
+                                          otherButtonTitles: nil];
+    [alert show];
+
 }
 @end

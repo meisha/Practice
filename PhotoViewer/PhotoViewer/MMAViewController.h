@@ -12,6 +12,7 @@
 {
     IBOutlet UIImageView *photoImageView;
     IBOutlet UIImageView *scaledImageView;
+    
 }
 
 -(IBAction)onClickAlbum:(id)sender;
@@ -19,4 +20,5 @@
 -(IBAction)onClickVideo:(id)sender;
 -(IBAction)onClickCancel:(id)sender;
 -(IBAction)onClickSave:(id)sender;
+
 @end
