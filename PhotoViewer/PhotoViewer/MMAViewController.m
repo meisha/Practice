@@ -17,6 +17,12 @@
 
 - (void)viewDidLoad
 {
+    album.hidden = FALSE;
+    CaptureImage.hidden = FALSE;
+    video.hidden = FALSE;
+    saveBtn.hidden = TRUE;
+    cancelBtn.hidden = TRUE;
+
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 }
@@ -71,8 +77,10 @@
                                               cancelButtonTitle:@"OK"
                                               otherButtonTitles: nil];
         [alert show];
+        
         NSLog(@"Save was a success!");
     }
+    [self dismissModalViewControllerAnimated:TRUE];
 }
 
 //::::VIDEO BUTTON::::
@@ -99,12 +107,27 @@
     if (selectedImage != nil)
     {
         photoImageView.image = selectedImage;
+        scaledImageView.image = nil;
+        album.hidden = TRUE;
+        CaptureImage.hidden = TRUE;
+        video.hidden = TRUE;
+        saveBtn.hidden = FALSE;
+        cancelBtn.hidden = FALSE;
+        instructions.hidden = TRUE;
+
     }
     //::::SCALED IMAGE CODE::::
     UIImage *scaledImage = [info objectForKey:@"UIImagePickerControllerEditedImage"];
     if (scaledImage != nil)
     {
         scaledImageView.image = scaledImage;
+        album.hidden = TRUE;
+        CaptureImage.hidden = TRUE;
+        video.hidden = TRUE;
+        saveBtn.hidden = FALSE;
+        cancelBtn.hidden = FALSE;
+        instructions.hidden = TRUE;
+
         
 //::::SAVES IMAGE TO THE PHOTO ALBUM::::
 //        UIImageWriteToSavedPhotosAlbum(scaledImage, self, @selector(image:didFinishSavingWithError:contextInfo:), nil);
@@ -121,8 +144,8 @@
         UISaveVideoAtPathToSavedPhotosAlbum(vidPath, self, @selector(video:didFinishSavingWithError:contextInfo:), nil);
     }
     
-    [picker dismissModalViewControllerAnimated:true];
-    //[self dismissModalViewControllerAnimated:TRUE];
+    //[picker dismissModalViewControllerAnimated:TRUE];
+    [self dismissModalViewControllerAnimated:TRUE];
     
 }
 
@@ -131,22 +154,22 @@
 {
     if (error != nil)
     {
-        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Save was not Successful"
-                                                        message:@""
-                                                       delegate:nil
-                                              cancelButtonTitle:@"Try Again"
-                                              otherButtonTitles: nil];
-        [alert show];
+//        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Save was not Successful"
+//                                                        message:@""
+//                                                       delegate:nil
+//                                              cancelButtonTitle:@"Try Again"
+//                                              otherButtonTitles: nil];
+//        [alert show];
 
         NSLog(@"Error saving file");
     }
     else{
-        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Save was Successful"
-                                                        message:@""
-                                                       delegate:nil
-                                              cancelButtonTitle:@"OK"
-                                              otherButtonTitles: nil];
-        [alert show];
+//        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Save was Successful"
+//                                                        message:@""
+//                                                       delegate:nil
+//                                              cancelButtonTitle:@"OK"
+//                                              otherButtonTitles: nil];
+//        [alert show];
         NSLog(@"save was complete");
     }
 }
@@ -154,8 +177,8 @@
 //::::USER SELECTED CANCEL::::
 -(void)imagePickerControllerDidCancel:(UIImagePickerController *)picker
 {
-    [picker dismissModalViewControllerAnimated:TRUE];
-    //[self dismissModalViewControllerAnimated:true];
+    //[picker dismissModalViewControllerAnimated:TRUE];
+    [self dismissModalViewControllerAnimated:TRUE];
 }
 
 //::::CANCEL BUTTON::::
@@ -163,6 +186,13 @@
 {
     photoImageView.image = nil;
     scaledImageView.image = nil;
+    album.hidden = FALSE;
+    CaptureImage.hidden = FALSE;
+    video.hidden = FALSE;
+    saveBtn.hidden = TRUE;
+    cancelBtn.hidden = TRUE;
+    instructions.hidden = FALSE;
+    
 }
 //::::SAVE BUTTON::::
 -(IBAction)onClickSave:(id)sender
@@ -172,13 +202,14 @@
     //::::SCALED IMAGE::::
     UIImageWriteToSavedPhotosAlbum(scaledImageView.image, self, @selector(image:didFinishSavingWithError:contextInfo:), nil);
     
-
-    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Save was Successful"
-                                                    message:@""
-                                                   delegate:nil
-                                          cancelButtonTitle:@"OK"
-                                          otherButtonTitles: nil];
-    [alert show];
+//    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Save was Successful"
+//                                                    message:@""
+//                                                   delegate:nil
+//                                          cancelButtonTitle:@"OK"
+//                                          otherButtonTitles: nil];
+//    [alert show];
+    
+    [self dismissModalViewControllerAnimated:TRUE];
 
 }
 

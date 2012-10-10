@@ -13,6 +13,15 @@
     IBOutlet UIImageView *photoImageView;
     IBOutlet UIImageView *scaledImageView;
     
+    //::::HIDDEN BUTTONS::::
+    
+    IBOutlet UIButton *video;
+    IBOutlet UIButton *CaptureImage;
+    IBOutlet UIButton *album;
+    IBOutlet UIButton *saveBtn;
+    IBOutlet UIButton *cancelBtn;
+    IBOutlet UILabel *instructions;
+    
 }
 
 -(IBAction)onClickAlbum:(id)sender;
