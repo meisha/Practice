@@ -142,5 +142,15 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
+//::::CANCEL BUTTON::::
+-(IBAction)onClickCancel:(id)sender
+{
+    photoImageView.image = nil;
+    scaledImageView.image = nil;
+}
+//::::SAVE BUTTON::::
+-(IBAction)onClickSave:(id)sender
+{
+    
+}
 @end
