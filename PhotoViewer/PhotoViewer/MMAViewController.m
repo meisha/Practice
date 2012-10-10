@@ -27,13 +27,11 @@
     UIImagePickerController *albPickerController = [[UIImagePickerController alloc] init];
     if (albPickerController != nil)
     {
-        //pickerController.sourceType = UIImagePickerControllerSourceTypePhotoLibrary;
         albPickerController.sourceType = UIImagePickerControllerSourceTypeSavedPhotosAlbum;
         
         //::::SET UP DELEGATE::::
        albPickerController.delegate = self;
         
-        //albPickerController.allowsEditing = false;
         albPickerController.allowsEditing = true;
         
         [self presentModalViewController:albPickerController animated:true];
@@ -44,8 +42,6 @@
     UIImagePickerController *camPickerController = [[UIImagePickerController alloc] init];
     if (camPickerController != nil)
     {
-        //camPickerController.sourceType = UIImagePickerControllerSourceTypePhotoLibrary;
-        //camPickerController.sourceType = UIImagePickerControllerSourceTypeSavedPhotosAlbum;
         camPickerController.sourceType = UIImagePickerControllerSourceTypeCamera;
         
         //::::SET UP DELEGATE::::
