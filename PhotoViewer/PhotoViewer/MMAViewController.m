@@ -121,8 +121,8 @@
         UISaveVideoAtPathToSavedPhotosAlbum(vidPath, self, @selector(video:didFinishSavingWithError:contextInfo:), nil);
     }
     
-    //[picker dismissModalViewControllerAnimated:true];
-    [self dismissModalViewControllerAnimated:TRUE];
+    [picker dismissModalViewControllerAnimated:true];
+    //[self dismissModalViewControllerAnimated:TRUE];
     
 }
 
@@ -157,11 +157,7 @@
     [picker dismissModalViewControllerAnimated:TRUE];
     //[self dismissModalViewControllerAnimated:true];
 }
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
+
 //::::CANCEL BUTTON::::
 -(IBAction)onClickCancel:(id)sender
 {
@@ -171,7 +167,9 @@
 //::::SAVE BUTTON::::
 -(IBAction)onClickSave:(id)sender
 {
+    //::::ORIGINAL IMAGE::::
     UIImageWriteToSavedPhotosAlbum(photoImageView.image, self, @selector(image:didFinishSavingWithError:contextInfo:), nil);
+    //::::SCALED IMAGE::::
     UIImageWriteToSavedPhotosAlbum(scaledImageView.image, self, @selector(image:didFinishSavingWithError:contextInfo:), nil);
     
 
@@ -182,5 +180,11 @@
                                           otherButtonTitles: nil];
     [alert show];
 
+}
+
+- (void)didReceiveMemoryWarning
+{
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
 }
 @end
