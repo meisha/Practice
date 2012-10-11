@@ -130,9 +130,6 @@
         cancelBtn.hidden = FALSE;
         instructions.hidden = TRUE;
 
-        
-//::::SAVES IMAGE TO THE PHOTO ALBUM::::
-//        UIImageWriteToSavedPhotosAlbum(scaledImage, self, @selector(image:didFinishSavingWithError:contextInfo:), nil);
     }
     
     //::::VIDEO CODE::::
@@ -145,10 +142,8 @@
 //::::SAVES VIDEO TO ALBUM::::(NOT WORKING)
         UISaveVideoAtPathToSavedPhotosAlbum(vidPath, self, @selector(video:didFinishSavingWithError:contextInfo:), nil);
     }
-    
     //[picker dismissModalViewControllerAnimated:TRUE];
     [self dismissModalViewControllerAnimated:TRUE];
-    
 }
 
 //::::TRIGGERS THE SAVE FOR VIDEO::::
@@ -156,31 +151,24 @@
 {
     if (error != nil)
     {
-//        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Save was not Successful"
-//                                                        message:@""
-//                                                       delegate:nil
-//                                              cancelButtonTitle:@"Try Again"
-//                                              otherButtonTitles: nil];
-//        [alert show];
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Save was not Successful"
+                                                        message:@""
+                                                       delegate:nil
+                                              cancelButtonTitle:@"Try Again"
+                                             otherButtonTitles: nil];
+        [alert show];
 
         NSLog(@"Error saving file");
     }
     else{
-//        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Save was Successful"
-//                                                        message:@""
-//                                                       delegate:nil
-//                                              cancelButtonTitle:@"OK"
-//                                              otherButtonTitles: nil];
-//        [alert show];
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Save was Successful"
+                                                        message:@""
+                                                       delegate:nil
+                                             cancelButtonTitle:@"OK"
+                                              otherButtonTitles: nil];
+        [alert show];
         NSLog(@"save was complete");
     }
-}
-
-//::::USER SELECTED CANCEL::::
--(void)imagePickerControllerDidCancel:(UIImagePickerController *)picker
-{
-    //[picker dismissModalViewControllerAnimated:TRUE];
-    [self dismissModalViewControllerAnimated:TRUE];
 }
 
 //::::CANCEL BUTTON::::
@@ -204,17 +192,16 @@
     //::::SCALED IMAGE::::
     UIImageWriteToSavedPhotosAlbum(scaledImageView.image, self, @selector(image:didFinishSavingWithError:contextInfo:), nil);
     
-//    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Save was Successful"
-//                                                    message:@""
-//                                                   delegate:nil
-//                                          cancelButtonTitle:@"OK"
-//                                          otherButtonTitles: nil];
-//    [alert show];
-    
     [self dismissModalViewControllerAnimated:TRUE];
 
 }
 
+//::::USER SELECTED CANCEL::::
+-(void)imagePickerControllerDidCancel:(UIImagePickerController *)picker
+{
+    //[picker dismissModalViewControllerAnimated:TRUE];
+    [self dismissModalViewControllerAnimated:TRUE];
+}
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
