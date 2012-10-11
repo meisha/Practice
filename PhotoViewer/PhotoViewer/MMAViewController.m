@@ -133,7 +133,7 @@
     }
     
     //::::VIDEO CODE::::
-    NSURL *urlString = [info valueForKey:UIImagePickerControllerMediaURL];
+    NSURL *urlString = [info valueForKey:@"UIImagePickerControllerMediaURL"];
     if (urlString != nil)
     {
         NSString *vidPath = [urlString path];
