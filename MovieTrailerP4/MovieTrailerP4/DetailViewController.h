@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 #import "Movie.h"
+#import "MMAViewController.h"
+#import "CustomMovieCell.h"
+#import "MMATrailerViewController.h"
+#import <MediaPlayer/MediaPlayer.h>
 
 @interface DetailViewController : UIViewController
 {
