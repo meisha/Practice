@@ -18,7 +18,7 @@
 @end
 
 @implementation DetailViewController
-@synthesize 
+
 
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -69,4 +69,5 @@
     [self presentModalViewController:trailerView animated:YES];
     //[self.navigationController pushViewController:secondView animated:YES];
 }
+
 @end
