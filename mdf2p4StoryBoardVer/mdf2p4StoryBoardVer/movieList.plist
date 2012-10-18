@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>MovieName</key>
+	<array>
+		<string>The Lorax</string>
+		<string>G.I. Joe</string>
+		<string>Safe</string>
+		<string>Battleship</string>
+		<string>Finding Nemo 3D</string>
+	</array>
+	<key>MovieTimes</key>
+	<array>
+		<string>2:40pm, 4:40pm, 5:40pm</string>
+		<string>2:40pm, 5:40pm, 8:40pm</string>
+		<string>1:30pm, 4:30pm, 8:30pm</string>
+		<string>3:30pm, 6:40pm, 9:50pm</string>
+		<string>1:30pm, 3:30pm, 6:40pm</string>
+	</array>
+	<key>MovieImage</key>
+	<array>
+		<string>theLorax.jpg</string>
+		<string>giJoe.jpg</string>
+		<string>safe.jpg</string>
+		<string>battleShip.jpg</string>
+		<string>nemo.jpg</string>
+	</array>
+	<key>MovieTrailer</key>
+	<array>
+		<string>lorax</string>
+		<string>joe</string>
+		<string>safe</string>
+		<string>battleship</string>
+		<string>nemo</string>
+	</array>
+</dict>
+</plist>
