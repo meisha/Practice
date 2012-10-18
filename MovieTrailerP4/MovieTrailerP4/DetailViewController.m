@@ -11,13 +11,16 @@
 #import "CustomMovieCell.h"
 #import "MMATrailerViewController.h"
 #import <MediaPlayer/MediaPlayer.h>
+#import "Movie.h"
 
 @interface DetailViewController ()
 
 @end
 
 @implementation DetailViewController
-@synthesize selectedMovie;
+
+
+
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -32,9 +35,10 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    movieTitle.text = selectedMovie;
     
-    self.navigationItem.title = @"Movie";
+    
+    
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -44,7 +48,7 @@
 }
 -(IBAction)viewTrailer:(id)sender
 {
-    MMATrailerViewController *trailerView = [[MMATrailerViewController alloc] initWithNibName:@"DetailViewController" bundle:nil];
+    MMATrailerViewController *trailerView = [[MMATrailerViewController alloc] initWithNibName:@"TrailerViewController" bundle:nil];
     //[self.navigationController pushViewController:detailView animated:YES];
     [self presentModalViewController:trailerView animated:YES];
 }

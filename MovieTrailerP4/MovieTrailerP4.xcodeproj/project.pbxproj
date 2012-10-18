@@ -32,6 +32,8 @@
 		89365E5D16304D6B00654819 /* safe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 89365E5C16304D6A00654819 /* safe.jpg */; };
 		89365E5F16304D6F00654819 /* wanderlust.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 89365E5E16304D6E00654819 /* wanderlust.jpg */; };
 		89365E6116304D7300654819 /* theLorax.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 89365E6016304D7300654819 /* theLorax.jpg */; };
+		89365E641630562400654819 /* Movie.m in Sources */ = {isa = PBXBuildFile; fileRef = 89365E631630562400654819 /* Movie.m */; };
+		89365E661630603100654819 /* photo-frame.png in Resources */ = {isa = PBXBuildFile; fileRef = 89365E651630603100654819 /* photo-frame.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,6 +71,9 @@
 		89365E5C16304D6A00654819 /* safe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = safe.jpg; sourceTree = "<group>"; };
 		89365E5E16304D6E00654819 /* wanderlust.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wanderlust.jpg; sourceTree = "<group>"; };
 		89365E6016304D7300654819 /* theLorax.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = theLorax.jpg; sourceTree = "<group>"; };
+		89365E621630562400654819 /* Movie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Movie.h; sourceTree = "<group>"; };
+		89365E631630562400654819 /* Movie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Movie.m; sourceTree = "<group>"; };
+		89365E651630603100654819 /* photo-frame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo-frame.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +138,8 @@
 				89365DA1162EEF5800654819 /* MMATrailerViewController.h */,
 				89365DA2162EEF5800654819 /* MMATrailerViewController.m */,
 				89365DA3162EEF5800654819 /* MMATrailerViewController.xib */,
+				89365E621630562400654819 /* Movie.h */,
+				89365E631630562400654819 /* Movie.m */,
 			);
 			path = MovieTrailerP4;
 			sourceTree = "<group>";
@@ -140,6 +147,7 @@
 		8934C5E8162C5B46005A6A11 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				89365E651630603100654819 /* photo-frame.png */,
 				89365E5816304D5F00654819 /* giJoe.jpg */,
 				89365E6016304D7300654819 /* theLorax.jpg */,
 				89365E5E16304D6E00654819 /* wanderlust.jpg */,
@@ -225,6 +233,7 @@
 				89365E5D16304D6B00654819 /* safe.jpg in Resources */,
 				89365E5F16304D6F00654819 /* wanderlust.jpg in Resources */,
 				89365E6116304D7300654819 /* theLorax.jpg in Resources */,
+				89365E661630603100654819 /* photo-frame.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +250,7 @@
 				8934C640162C729F005A6A11 /* CustomMovieCell.m in Sources */,
 				8934C651162C81D0005A6A11 /* DetailViewController.m in Sources */,
 				89365DA4162EEF5900654819 /* MMATrailerViewController.m in Sources */,
+				89365E641630562400654819 /* Movie.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

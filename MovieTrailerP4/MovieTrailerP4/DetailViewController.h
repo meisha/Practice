@@ -7,16 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Movie.h"
 
 @interface DetailViewController : UIViewController
 {
-    IBOutlet UILabel *movieTitle;
-    IBOutlet UIImageView *moviePic;
+    IBOutlet UILabel *movieName;
+    IBOutlet UIImageView *imageFile;
     IBOutlet UIButton *viewTrailer;
-    IBOutlet UILabel *showTimes;
-    NSString *selectedMovie;
+    IBOutlet UILabel *times;
+    
 }
-@property (nonatomic, retain) NSString *selectedMovie;
+
 -(IBAction)viewTrailer:(id)sender;
 
 @end
