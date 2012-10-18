@@ -22,6 +22,7 @@
     
 }
 
--(IBAction)viewTrailer:(id)sender;
+-(IBAction)viewTrailer;
+-(IBAction)goBack:(id)sender;
 
 @end

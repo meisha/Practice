@@ -7,15 +7,20 @@
 //
 
 #import "MMAAppDelegate.h"
-
 #import "MMAViewController.h"
 
 @implementation MMAAppDelegate
+
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+//    MMAViewController *mainView = [[MMAViewController alloc] initWithStyle:UITableViewStylePlain];
+//    self.navController = [[UINavigationController alloc] initWithRootViewController:mainView];
+//    [self.window addSubview:navController.view];
+    
     self.viewController = [[MMAViewController alloc] initWithNibName:@"MMAViewController" bundle:nil];
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];

@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import <MediaPlayer/MediaPlayer.h>
+#import "DetailViewController.h"
+#import "MMAViewController.h"
+#import "Movie.h"
 
 @interface MMATrailerViewController : UIViewController
 {
