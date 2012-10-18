@@ -18,6 +18,7 @@
 @end
 
 @implementation DetailViewController
+@synthesize 
 
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -35,11 +36,11 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     
-    titleLabel.text = movieTitle;
-    timesLabel.text = movieTimes;
-    trailerSelected = TrailerTag;
-    NSLog(@"trailer %@", trailerSelected);
-    movieView.image = [UIImage imageNamed:movieImage];
+//    titleLabel.text = movieTitle;
+//    timesLabel.text = movieTimes;
+//    trailerSelected = TrailerTag;
+//    NSLog(@"trailer %@", trailerSelected);
+//    movieView.image = [UIImage imageNamed:movieImage];
 }
 
 - (void)didReceiveMemoryWarning
@@ -56,7 +57,7 @@
     //[self.view addSubview:mainView];
 
 }
--(IBAction)viewTrailer
+-(IBAction)viewTrailer:(id)sender
 {
 //    MMATrailerViewController *destinationController = [[MMATrailerViewController alloc] init];
 //    [self.navigationController pushViewController:destinationController animated:YES];
