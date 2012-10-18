@@ -122,7 +122,6 @@
 		8934C5E7162C5B46005A6A11 /* MovieTrailerP4 */ = {
 			isa = PBXGroup;
 			children = (
-				89365DAA162EF2A300654819 /* Finding Nemo 3D.m4v */,
 				8934C5F0162C5B46005A6A11 /* MMAAppDelegate.h */,
 				8934C5F1162C5B46005A6A11 /* MMAAppDelegate.m */,
 				8934C5F9162C5B46005A6A11 /* MMAViewController.h */,
@@ -147,6 +146,7 @@
 		8934C5E8162C5B46005A6A11 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				89365DAA162EF2A300654819 /* Finding Nemo 3D.m4v */,
 				89365E651630603100654819 /* photo-frame.png */,
 				89365E5816304D5F00654819 /* giJoe.jpg */,
 				89365E6016304D7300654819 /* theLorax.jpg */,

@@ -53,14 +53,14 @@
 }
 -(IBAction)viewTrailer
 {
-    MMATrailerViewController *destinationController = [[MMATrailerViewController alloc] init];
-    [self.navigationController pushViewController:destinationController animated:YES];
+//    MMATrailerViewController *destinationController = [[MMATrailerViewController alloc] init];
+//    [self.navigationController pushViewController:destinationController animated:YES];
     
-//    MMAViewController *trailerView = [[MMAViewController alloc]
-//                                   initWithNibName:@"MMATrailerViewController" bundle:nil];
+    MMAViewController *trailerView = [[MMAViewController alloc]
+                                   initWithNibName:@"MMATrailerViewController" bundle:nil];
     //[self.view addSubview:trailerView.view];
 //    MMATrailerViewController *secondView = [[MMATrailerViewController alloc] initWithNibName:@"MMATrailerViewController" bundle:nil];
-    //[self presentModalViewController:trailerView animated:YES];
+    [self presentModalViewController:trailerView animated:YES];
     //[self.navigationController pushViewController:secondView animated:YES];
 }
 @end

@@ -15,10 +15,10 @@
 
 @interface DetailViewController : UIViewController
 {
-    IBOutlet UILabel *movieName;
-    IBOutlet UIImageView *imageFile;
+    IBOutlet UILabel *movieTitle;
+    IBOutlet UIImageView *thumbnailImage;
     IBOutlet UIButton *viewTrailer;
-    IBOutlet UILabel *times;
+    IBOutlet UILabel *movieTimes;
     
 }
 
