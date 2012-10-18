@@ -35,6 +35,11 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     
+    titleLabel.text = movieTitle;
+    timesLabel.text = movieTimes;
+    trailerSelected = TrailerTag;
+    NSLog(@"trailer %@", trailerSelected);
+    movieView.image = [UIImage imageNamed:movieImage];
 }
 
 - (void)didReceiveMemoryWarning

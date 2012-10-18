@@ -16,6 +16,7 @@
 @interface DetailViewController : UIViewController
 {
     IBOutlet UILabel *movieTitle;
+    IBOutlet UILabel *titleLabel;
     IBOutlet UIImageView *thumbnailImage;
     IBOutlet UIButton *viewTrailer;
     IBOutlet UILabel *movieTimes;
