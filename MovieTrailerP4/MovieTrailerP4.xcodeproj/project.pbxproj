@@ -26,6 +26,12 @@
 		89365DA4162EEF5900654819 /* MMATrailerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89365DA2162EEF5800654819 /* MMATrailerViewController.m */; };
 		89365DA5162EEF5900654819 /* MMATrailerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89365DA3162EEF5800654819 /* MMATrailerViewController.xib */; };
 		89365DA8162EF12400654819 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89365DA7162EF12400654819 /* MediaPlayer.framework */; };
+		89365E5616304D5900654819 /* battleShip.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 89365E5516304D5800654819 /* battleShip.jpg */; };
+		89365E5916304D5F00654819 /* giJoe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 89365E5816304D5F00654819 /* giJoe.jpg */; };
+		89365E5B16304D6500654819 /* nemo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 89365E5A16304D6500654819 /* nemo.jpg */; };
+		89365E5D16304D6B00654819 /* safe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 89365E5C16304D6A00654819 /* safe.jpg */; };
+		89365E5F16304D6F00654819 /* wanderlust.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 89365E5E16304D6E00654819 /* wanderlust.jpg */; };
+		89365E6116304D7300654819 /* theLorax.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 89365E6016304D7300654819 /* theLorax.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +63,12 @@
 		89365DA3162EEF5800654819 /* MMATrailerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MMATrailerViewController.xib; sourceTree = "<group>"; };
 		89365DA7162EF12400654819 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		89365DAA162EF2A300654819 /* Finding Nemo 3D.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Finding Nemo 3D.m4v"; sourceTree = "<group>"; };
+		89365E5516304D5800654819 /* battleShip.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = battleShip.jpg; sourceTree = "<group>"; };
+		89365E5816304D5F00654819 /* giJoe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = giJoe.jpg; sourceTree = "<group>"; };
+		89365E5A16304D6500654819 /* nemo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nemo.jpg; sourceTree = "<group>"; };
+		89365E5C16304D6A00654819 /* safe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = safe.jpg; sourceTree = "<group>"; };
+		89365E5E16304D6E00654819 /* wanderlust.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wanderlust.jpg; sourceTree = "<group>"; };
+		89365E6016304D7300654819 /* theLorax.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = theLorax.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +117,12 @@
 		8934C5E7162C5B46005A6A11 /* MovieTrailerP4 */ = {
 			isa = PBXGroup;
 			children = (
+				89365E5816304D5F00654819 /* giJoe.jpg */,
+				89365E6016304D7300654819 /* theLorax.jpg */,
+				89365E5E16304D6E00654819 /* wanderlust.jpg */,
+				89365E5C16304D6A00654819 /* safe.jpg */,
+				89365E5A16304D6500654819 /* nemo.jpg */,
+				89365E5516304D5800654819 /* battleShip.jpg */,
 				8934C643162C758E005A6A11 /* headerImage.jpg */,
 				89365DAA162EF2A300654819 /* Finding Nemo 3D.m4v */,
 				8934C5F0162C5B46005A6A11 /* MMAAppDelegate.h */,
@@ -201,6 +219,12 @@
 				8934C644162C758E005A6A11 /* headerImage.jpg in Resources */,
 				8934C652162C81D0005A6A11 /* DetailViewController.xib in Resources */,
 				89365DA5162EEF5900654819 /* MMATrailerViewController.xib in Resources */,
+				89365E5616304D5900654819 /* battleShip.jpg in Resources */,
+				89365E5916304D5F00654819 /* giJoe.jpg in Resources */,
+				89365E5B16304D6500654819 /* nemo.jpg in Resources */,
+				89365E5D16304D6B00654819 /* safe.jpg in Resources */,
+				89365E5F16304D6F00654819 /* wanderlust.jpg in Resources */,
+				89365E6116304D7300654819 /* theLorax.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

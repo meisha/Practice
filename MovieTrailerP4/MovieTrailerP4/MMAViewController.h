@@ -12,7 +12,7 @@
 @interface MMAViewController : UIViewController<UITableViewDelegate, UITableViewDataSource>
 {
     IBOutlet UITableView *myTableView;
-    NSMutableArray *movieList;
+    NSArray *movieList;
 }
 
 @end

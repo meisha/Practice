@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MMAMasterViewController : UITableViewController
+@interface MMAMasterViewController : UITableViewController<UITableViewDelegate, UITableViewDataSource>
+{
+    IBOutlet UITableView *myTableView;
+    NSMutableArray *movieList;
+}
+
 
 @end

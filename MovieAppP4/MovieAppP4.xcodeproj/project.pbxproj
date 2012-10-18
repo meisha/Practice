@@ -19,6 +19,7 @@
 		89365E471630452500654819 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89365E451630452500654819 /* MainStoryboard.storyboard */; };
 		89365E4A1630452500654819 /* MMAMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89365E491630452500654819 /* MMAMasterViewController.m */; };
 		89365E4D1630452500654819 /* MMADetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89365E4C1630452500654819 /* MMADetailViewController.m */; };
+		89365E541630464D00654819 /* headerImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 89365E531630464D00654819 /* headerImage.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		89365E491630452500654819 /* MMAMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMAMasterViewController.m; sourceTree = "<group>"; };
 		89365E4B1630452500654819 /* MMADetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMADetailViewController.h; sourceTree = "<group>"; };
 		89365E4C1630452500654819 /* MMADetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMADetailViewController.m; sourceTree = "<group>"; };
+		89365E531630464D00654819 /* headerImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = headerImage.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 		89365E331630452500654819 /* MovieAppP4 */ = {
 			isa = PBXGroup;
 			children = (
+				89365E531630464D00654819 /* headerImage.jpg */,
 				89365E3C1630452500654819 /* MMAAppDelegate.h */,
 				89365E3D1630452500654819 /* MMAAppDelegate.m */,
 				89365E451630452500654819 /* MainStoryboard.storyboard */,
@@ -169,6 +172,7 @@
 				89365E421630452500654819 /* Default@2x.png in Resources */,
 				89365E441630452500654819 /* Default-568h@2x.png in Resources */,
 				89365E471630452500654819 /* MainStoryboard.storyboard in Resources */,
+				89365E541630464D00654819 /* headerImage.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

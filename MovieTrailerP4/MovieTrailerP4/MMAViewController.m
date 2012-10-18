@@ -15,6 +15,10 @@
 @end
 
 @implementation MMAViewController
+{
+   
+    NSArray *thumbs;
+}
 
 - (void)viewDidLoad
 {
@@ -22,22 +26,40 @@
 	// Do any additional setup after loading the view, typically from a nib.
     
     //::::LIST OF MOVIES:::::
-    movieList = [[NSMutableArray alloc] init];
-    [movieList addObject:@"The Lorax"];
-    [movieList addObject:@"G.I. Joe"];
-    [movieList addObject:@"Safe House"];
-    [movieList addObject:@"Battle Ship"];
-    [movieList addObject:@"Finding Nemo 3D"];
-    [movieList addObject:@"Wanderlust"];
+//    movieList = [[NSMutableArray alloc] init];
+//    [movieList addObject:@"The Lorax"];
+//    [movieList addObject:@"G.I. Joe"];
+//    [movieList addObject:@"Safe House"];
+//    [movieList addObject:@"Battle Ship"];
+//    [movieList addObject:@"Finding Nemo 3D"];
+//    [movieList addObject:@"Wanderlust"];
+//    
+//    
+//    self.navigationItem.title = @"Movie List";
     
-    
-    self.navigationItem.title = @"Movie List";
+    movieList = [NSArray arrayWithObjects:
+                 @"The Lorax",
+                 @"G.I. Joe",
+                 @"Safe",
+                 @"Battle Ship",
+                 @"Finding Nemo 3D",
+                 @"Wanderlust",
+                 nil];
 
+    thumbs = [NSArray arrayWithObjects:
+              @"theLorax.jpg",
+              @"giJoe.jpg",
+              @"safe.jpg",
+              @"battleShip.jpg",
+              @"nemo.jpg",
+              @"wanderlust.jpg",
+              nil];
 }
 //::::NUMBER OF HEADER SECTIONS::::
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
     return 3;
+    //return [movieList];
 }
 //::::NUMBER OF ROWS IN EACH SECTION::::
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
@@ -59,16 +81,18 @@
 
 -(UITableViewCell*)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    //static NSString *cellIdentifiers = @"TableCell";
+    static NSString *simpleTableIdentifier = @"TableCell";
     
-    UITableViewCell *cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"TableCell"];
-    if (cell != nil)
+//    UITableViewCell *cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"TableCell"];
+    
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:simpleTableIdentifier ];
+    if (cell == nil)
     {
-        cell.textLabel.text = @"Movie Info";
-        
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:simpleTableIdentifier ];
     }
-    NSString *cellValue = [movieList objectAtIndex:indexPath.row];
-    cell.text = cellValue;
+    
+    cell.textLabel.text = [movieList objectAtIndex:indexPath.row];
+    cell.imageView.image = [UIImage imageNamed:[thumbs objectAtIndex:indexPath.row]];
     return cell;
 }
 //::::CUSTOM HEADER::::
