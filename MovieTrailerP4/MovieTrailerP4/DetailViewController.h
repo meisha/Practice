@@ -20,10 +20,11 @@
     IBOutlet UIImageView *thumbnailImage;
     IBOutlet UIButton *viewTrailer;
     IBOutlet UILabel *movieTimes;
+    IBOutlet UILabel *timesLabel;
     
 }
 
--(IBAction)viewTrailer;
+-(IBAction)viewTrailer:(id)sender;
 -(IBAction)goBack:(id)sender;
 
 @end
