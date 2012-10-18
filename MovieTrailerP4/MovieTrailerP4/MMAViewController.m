@@ -18,6 +18,7 @@
 {
    
     NSArray *thumbs;
+    NSArray *showTimes;
 }
 
 - (void)viewDidLoad
@@ -54,6 +55,18 @@
               @"nemo.jpg",
               @"wanderlust.jpg",
               nil];
+    
+    showTimes = [NSArray arrayWithObjects:
+                 @"2:40pm, 5:40pm, 7:40pm",
+                 @"2:40pm, 5:40pm, 7:40pm",
+                 @"2:40pm, 5:40pm, 6:00pm",
+                 @"2:40pm, 5:40pm, 7:40pm",
+                 @"1:30pm, 6:40pm, 9:40pm",
+                 nil];
+}
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return 78;
 }
 //::::NUMBER OF HEADER SECTIONS::::
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
@@ -81,18 +94,19 @@
 
 -(UITableViewCell*)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *simpleTableIdentifier = @"TableCell";
-    
-//    UITableViewCell *cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"TableCell"];
-    
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:simpleTableIdentifier ];
+    static NSString *simpleTableIdentifier = @"CustomMovieCell";
+        
+    CustomMovieCell *cell =  (CustomMovieCell*) [tableView dequeueReusableCellWithIdentifier:simpleTableIdentifier ];
     if (cell == nil)
     {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:simpleTableIdentifier ];
+        NSArray *nib = [[NSBundle mainBundle] loadNibNamed:@"CustomMovieCell" owner:self options:nil];
+        cell = [nib objectAtIndex:0];
+//        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:simpleTableIdentifier ];
     }
     
-    cell.textLabel.text = [movieList objectAtIndex:indexPath.row];
-    cell.imageView.image = [UIImage imageNamed:[thumbs objectAtIndex:indexPath.row]];
+    cell.movieTitle.text = [movieList objectAtIndex:indexPath.row];
+    cell.thumbnailImage.image = [UIImage imageNamed:[thumbs objectAtIndex:indexPath.row]];
+    cell.movieTimes.text = [showTimes objectAtIndex:indexPath.row];
     return cell;
 }
 //::::CUSTOM HEADER::::

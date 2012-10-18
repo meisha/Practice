@@ -10,6 +10,9 @@
 #import "MMAViewController.h"
 
 @implementation CustomMovieCell
+@synthesize movieTitle = _movieTitle;
+@synthesize movieTimes = _movieTimes;
+@synthesize thumbnailImage = _thumbnailImage;
 
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
 {

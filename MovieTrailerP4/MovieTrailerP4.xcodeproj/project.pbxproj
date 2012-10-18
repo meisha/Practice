@@ -117,13 +117,6 @@
 		8934C5E7162C5B46005A6A11 /* MovieTrailerP4 */ = {
 			isa = PBXGroup;
 			children = (
-				89365E5816304D5F00654819 /* giJoe.jpg */,
-				89365E6016304D7300654819 /* theLorax.jpg */,
-				89365E5E16304D6E00654819 /* wanderlust.jpg */,
-				89365E5C16304D6A00654819 /* safe.jpg */,
-				89365E5A16304D6500654819 /* nemo.jpg */,
-				89365E5516304D5800654819 /* battleShip.jpg */,
-				8934C643162C758E005A6A11 /* headerImage.jpg */,
 				89365DAA162EF2A300654819 /* Finding Nemo 3D.m4v */,
 				8934C5F0162C5B46005A6A11 /* MMAAppDelegate.h */,
 				8934C5F1162C5B46005A6A11 /* MMAAppDelegate.m */,
@@ -147,6 +140,13 @@
 		8934C5E8162C5B46005A6A11 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				89365E5816304D5F00654819 /* giJoe.jpg */,
+				89365E6016304D7300654819 /* theLorax.jpg */,
+				89365E5E16304D6E00654819 /* wanderlust.jpg */,
+				89365E5C16304D6A00654819 /* safe.jpg */,
+				89365E5A16304D6500654819 /* nemo.jpg */,
+				89365E5516304D5800654819 /* battleShip.jpg */,
+				8934C643162C758E005A6A11 /* headerImage.jpg */,
 				8934C5E9162C5B46005A6A11 /* MovieTrailerP4-Info.plist */,
 				8934C5EA162C5B46005A6A11 /* InfoPlist.strings */,
 				8934C5ED162C5B46005A6A11 /* main.m */,

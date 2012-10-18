@@ -7,12 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MMAViewController.h"
 
 @interface CustomMovieCell : UITableViewCell
-{
-    IBOutlet UIImageView *movieImage;
-    IBOutlet UILabel *movieTitle;
-    IBOutlet UILabel *movieTimes;
-}
+
+@property (nonatomic, strong) IBOutlet UILabel *movieTitle;
+@property (nonatomic, strong) IBOutlet UILabel *movieTimes;
+@property (nonatomic, strong) IBOutlet UIImageView *thumbnailImage;
 
 @end
