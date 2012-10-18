@@ -9,6 +9,8 @@
 #import "DetailViewController.h"
 #import "MMAViewController.h"
 #import "CustomMovieCell.h"
+#import "MMATrailerViewController.h"
+#import <MediaPlayer/MediaPlayer.h>
 
 @interface DetailViewController ()
 
@@ -40,5 +42,10 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
+-(IBAction)viewTrailer:(id)sender
+{
+    MMATrailerViewController *trailerView = [[MMATrailerViewController alloc] initWithNibName:@"DetailViewController" bundle:nil];
+    //[self.navigationController pushViewController:detailView animated:YES];
+    [self presentModalViewController:trailerView animated:YES];
+}
 @end

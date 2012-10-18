@@ -20,6 +20,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    //::::LIST OF MOVIES:::::
     movieList = [[NSMutableArray alloc] init];
     [movieList addObject:@"The Lorax"];
     [movieList addObject:@"G.I. Joe"];
@@ -57,7 +59,7 @@
 
 -(UITableViewCell*)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *cellIdentifiers = @"cell";
+    //static NSString *cellIdentifiers = @"TableCell";
     
     UITableViewCell *cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"TableCell"];
     if (cell != nil)
@@ -112,7 +114,9 @@
     NSString *selectedMovie = [movieList objectAtIndex:indexPath.row];
     
     DetailViewController *detailView = [[DetailViewController alloc] initWithNibName:@"DetailViewController" bundle:nil];
-    [self.navigationController pushViewController:detailView animated:YES];
+    //[self.navigationController pushViewController:detailView animated:YES];
+    [self presentModalViewController:detailView animated:YES];
+
     
     //detailView = nil;
 }

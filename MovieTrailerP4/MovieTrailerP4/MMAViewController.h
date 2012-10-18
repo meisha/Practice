@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CustomMovieCell.h"
 
 @interface MMAViewController : UIViewController<UITableViewDelegate, UITableViewDataSource>
 {

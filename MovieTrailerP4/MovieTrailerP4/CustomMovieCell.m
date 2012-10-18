@@ -7,6 +7,7 @@
 //
 
 #import "CustomMovieCell.h"
+#import "MMAViewController.h"
 
 @implementation CustomMovieCell
 

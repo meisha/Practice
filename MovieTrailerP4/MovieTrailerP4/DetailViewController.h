@@ -17,5 +17,6 @@
     NSString *selectedMovie;
 }
 @property (nonatomic, retain) NSString *selectedMovie;
+-(IBAction)viewTrailer:(id)sender;
 
 @end

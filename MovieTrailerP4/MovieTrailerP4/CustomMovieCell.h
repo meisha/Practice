@@ -9,5 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface CustomMovieCell : UITableViewCell
+{
+    IBOutlet UIImageView *movieImage;
+    IBOutlet UILabel *movieTitle;
+    IBOutlet UILabel *movieTimes;
+}
 
 @end
