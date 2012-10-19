@@ -20,6 +20,7 @@
 		89365EA2163094DA00654819 /* MMAMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89365EA1163094DA00654819 /* MMAMasterViewController.m */; };
 		89365EA5163094DA00654819 /* MMADetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89365EA4163094DA00654819 /* MMADetailViewController.m */; };
 		89365EAE1630957800654819 /* movieList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 89365EAD1630957800654819 /* movieList.plist */; };
+		89365EB51630B86D00654819 /* MovieTrailerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89365EB41630B86D00654819 /* MovieTrailerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,8 @@
 		89365EA3163094DA00654819 /* MMADetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMADetailViewController.h; sourceTree = "<group>"; };
 		89365EA4163094DA00654819 /* MMADetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMADetailViewController.m; sourceTree = "<group>"; };
 		89365EAD1630957800654819 /* movieList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = movieList.plist; sourceTree = "<group>"; };
+		89365EB31630B86D00654819 /* MovieTrailerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieTrailerViewController.h; sourceTree = "<group>"; };
+		89365EB41630B86D00654819 /* MovieTrailerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieTrailerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +100,8 @@
 				89365EA4163094DA00654819 /* MMADetailViewController.m */,
 				89365E8C163094DA00654819 /* Supporting Files */,
 				89365EAD1630957800654819 /* movieList.plist */,
+				89365EB31630B86D00654819 /* MovieTrailerViewController.h */,
+				89365EB41630B86D00654819 /* MovieTrailerViewController.m */,
 			);
 			path = mdf2p4StoryBoardVer;
 			sourceTree = "<group>";
@@ -187,6 +192,7 @@
 				89365E96163094DA00654819 /* MMAAppDelegate.m in Sources */,
 				89365EA2163094DA00654819 /* MMAMasterViewController.m in Sources */,
 				89365EA5163094DA00654819 /* MMADetailViewController.m in Sources */,
+				89365EB51630B86D00654819 /* MovieTrailerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +309,7 @@
 				89365EAA163094DA00654819 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

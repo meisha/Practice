@@ -13,7 +13,6 @@
 		8934C5EC162C5B46005A6A11 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8934C5EA162C5B46005A6A11 /* InfoPlist.strings */; };
 		8934C5EE162C5B46005A6A11 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8934C5ED162C5B46005A6A11 /* main.m */; };
 		8934C5F2162C5B46005A6A11 /* MMAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8934C5F1162C5B46005A6A11 /* MMAAppDelegate.m */; };
-		8934C5F4162C5B46005A6A11 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8934C5F3162C5B46005A6A11 /* Default.png */; };
 		8934C5F6162C5B46005A6A11 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8934C5F5162C5B46005A6A11 /* Default@2x.png */; };
 		8934C5F8162C5B46005A6A11 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8934C5F7162C5B46005A6A11 /* Default-568h@2x.png */; };
 		8934C5FB162C5B46005A6A11 /* MMAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8934C5FA162C5B46005A6A11 /* MMAViewController.m */; };
@@ -34,6 +33,10 @@
 		89365E6116304D7300654819 /* theLorax.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 89365E6016304D7300654819 /* theLorax.jpg */; };
 		89365E641630562400654819 /* Movie.m in Sources */ = {isa = PBXBuildFile; fileRef = 89365E631630562400654819 /* Movie.m */; };
 		89365E661630603100654819 /* photo-frame.png in Resources */ = {isa = PBXBuildFile; fileRef = 89365E651630603100654819 /* photo-frame.png */; };
+		89365EC11630C1BE00654819 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 89365EC01630C1BE00654819 /* icon.png */; };
+		89365EC31630C1C100654819 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 89365EC21630C1C100654819 /* icon@2x.png */; };
+		89365EC51630C1C700654819 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 89365EC41630C1C700654819 /* Default.png */; };
+		89365EC71630C1CF00654819 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 89365EC61630C1CF00654819 /* Default@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,7 +50,6 @@
 		8934C5EF162C5B46005A6A11 /* MovieTrailerP4-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MovieTrailerP4-Prefix.pch"; sourceTree = "<group>"; };
 		8934C5F0162C5B46005A6A11 /* MMAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMAAppDelegate.h; sourceTree = "<group>"; };
 		8934C5F1162C5B46005A6A11 /* MMAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMAAppDelegate.m; sourceTree = "<group>"; };
-		8934C5F3162C5B46005A6A11 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		8934C5F5162C5B46005A6A11 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		8934C5F7162C5B46005A6A11 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		8934C5F9162C5B46005A6A11 /* MMAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMAViewController.h; sourceTree = "<group>"; };
@@ -74,6 +76,10 @@
 		89365E621630562400654819 /* Movie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Movie.h; sourceTree = "<group>"; };
 		89365E631630562400654819 /* Movie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Movie.m; sourceTree = "<group>"; };
 		89365E651630603100654819 /* photo-frame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo-frame.png"; sourceTree = "<group>"; };
+		89365EC01630C1BE00654819 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../icon.png; sourceTree = "<group>"; };
+		89365EC21630C1C100654819 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon@2x.png"; path = "../icon@2x.png"; sourceTree = "<group>"; };
+		89365EC41630C1C700654819 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
+		89365EC61630C1CF00654819 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,18 +133,18 @@
 				8934C5F9162C5B46005A6A11 /* MMAViewController.h */,
 				8934C5FA162C5B46005A6A11 /* MMAViewController.m */,
 				8934C5FC162C5B46005A6A11 /* MMAViewController.xib */,
-				8934C5E8162C5B46005A6A11 /* Supporting Files */,
 				8934C63E162C729F005A6A11 /* CustomMovieCell.h */,
 				8934C63F162C729F005A6A11 /* CustomMovieCell.m */,
 				8934C641162C72B7005A6A11 /* CustomMovieCell.xib */,
 				8934C64E162C81D0005A6A11 /* DetailViewController.h */,
 				8934C64F162C81D0005A6A11 /* DetailViewController.m */,
 				8934C650162C81D0005A6A11 /* DetailViewController.xib */,
+				89365E621630562400654819 /* Movie.h */,
+				89365E631630562400654819 /* Movie.m */,
 				89365DA1162EEF5800654819 /* MMATrailerViewController.h */,
 				89365DA2162EEF5800654819 /* MMATrailerViewController.m */,
 				89365DA3162EEF5800654819 /* MMATrailerViewController.xib */,
-				89365E621630562400654819 /* Movie.h */,
-				89365E631630562400654819 /* Movie.m */,
+				8934C5E8162C5B46005A6A11 /* Supporting Files */,
 			);
 			path = MovieTrailerP4;
 			sourceTree = "<group>";
@@ -146,6 +152,10 @@
 		8934C5E8162C5B46005A6A11 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				89365EC61630C1CF00654819 /* Default@2x.png */,
+				89365EC41630C1C700654819 /* Default.png */,
+				89365EC21630C1C100654819 /* icon@2x.png */,
+				89365EC01630C1BE00654819 /* icon.png */,
 				89365DAA162EF2A300654819 /* Finding Nemo 3D.m4v */,
 				89365E651630603100654819 /* photo-frame.png */,
 				89365E5816304D5F00654819 /* giJoe.jpg */,
@@ -159,7 +169,6 @@
 				8934C5EA162C5B46005A6A11 /* InfoPlist.strings */,
 				8934C5ED162C5B46005A6A11 /* main.m */,
 				8934C5EF162C5B46005A6A11 /* MovieTrailerP4-Prefix.pch */,
-				8934C5F3162C5B46005A6A11 /* Default.png */,
 				8934C5F5162C5B46005A6A11 /* Default@2x.png */,
 				8934C5F7162C5B46005A6A11 /* Default-568h@2x.png */,
 			);
@@ -219,7 +228,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8934C5EC162C5B46005A6A11 /* InfoPlist.strings in Resources */,
-				8934C5F4162C5B46005A6A11 /* Default.png in Resources */,
 				8934C5F6162C5B46005A6A11 /* Default@2x.png in Resources */,
 				8934C5F8162C5B46005A6A11 /* Default-568h@2x.png in Resources */,
 				8934C5FE162C5B46005A6A11 /* MMAViewController.xib in Resources */,
@@ -234,6 +242,10 @@
 				89365E5F16304D6F00654819 /* wanderlust.jpg in Resources */,
 				89365E6116304D7300654819 /* theLorax.jpg in Resources */,
 				89365E661630603100654819 /* photo-frame.png in Resources */,
+				89365EC11630C1BE00654819 /* icon.png in Resources */,
+				89365EC31630C1C100654819 /* icon@2x.png in Resources */,
+				89365EC51630C1C700654819 /* Default.png in Resources */,
+				89365EC71630C1CF00654819 /* Default@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,7 +344,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MovieTrailerP4/MovieTrailerP4-Prefix.pch";
 				INFOPLIST_FILE = "MovieTrailerP4/MovieTrailerP4-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -344,7 +356,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MovieTrailerP4/MovieTrailerP4-Prefix.pch";
 				INFOPLIST_FILE = "MovieTrailerP4/MovieTrailerP4-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

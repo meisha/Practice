@@ -7,11 +7,12 @@
 //
 
 #import "Movie.h"
+#import "DetailViewController.h"
 
 @implementation Movie
 
-@synthesize movieName;
-@synthesize times;
+@synthesize movieTitle;
+@synthesize movieTimes;
 @synthesize imageFile;
 
 @end

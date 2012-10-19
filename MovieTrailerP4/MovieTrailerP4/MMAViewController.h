@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "CustomMovieCell.h"
 #import "MMAAppDelegate.h"
+#import "DetailViewController.h"
 
 @interface MMAViewController : UIViewController<UITableViewDelegate, UITableViewDataSource>
 {
@@ -16,9 +17,6 @@
     NSArray *movieList;
     NSArray *thumbs;
     NSArray *showTimes;
-
 }
-
-
 
 @end
