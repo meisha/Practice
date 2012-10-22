@@ -1,14 +1,14 @@
 html {
 	margin:0;
 	padding:0;
-	background-color:#8A9B9E;
+	background-color:#572606;
 }
 body {
 	margin: 0 auto;
 	padding:1em 50px;
 	width: 70%;
 	font: 100% Georgia, "Times New Roman", Times, serif;
-	background-color:#9E918A;
+	background-color:#F0833B;
 	border-bottom:20px solid #000;
 	border-top:20px solid #000;
 }
@@ -26,13 +26,6 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight:normal;
 	font-style:italic;
 	margin: .25ex 12pt;
-}
-h2 {
-	font-size:2em;
-	color:#E8D9CF;
-	position:fixed;
-	top:40px;
-	right:70px;
 }
 a {
 	text-decoration: none;
@@ -109,3 +102,73 @@ nav#top-menu {
 	text-decoration: none;
 }
 #top-menu ul li a:hover { border-bottom: solid 2px;}
+
+header h1 { margin-top: 0;}
+header p {
+	font-family:tahoma, sans-serif;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 85%;
+	margin: .25ex 12pt;
+	color: #3B787B;
+}
+#maindiv{
+	width:775px;
+	margin: 0 auto;
+	background-color: #DBC4A1;
+}
+article {
+	width: 625px;
+	margin-right: 10px;
+	float: left;
+}
+article h1 {
+	font-size: 110%;
+	margin-top: 12pt;
+	margin-bottom: 0;
+	padding-top: 3pt;
+	border-top: 4px solid #DBC4A1;
+}
+article p {
+	font-family: tahoma, sans-serif;
+}
+article mark {
+	background-color: #DBC4A1;
+}
+/* Aside */
+aside.about {
+	float: left;
+	width: 248px;
+	background-color: white;
+	margin: 3pt 6pt 3pt 6pt;
+	padding: 6pt 0;
+}
+aside h1 { font-size:110%;}
+aside h2 { font-size:95%;}
+aside p{
+	margin: 0 12pt;
+	font-family: tahoma, sans-serif;
+	font-style: italic;
+	font-size: 85%;
+}
+aside section h1 {
+	padding-top: 3pt;
+	border-top: 4px solid #fd0;
+}
+aside header p {
+	font-size: 85%;
+}
+aside section {
+	padding:5px 0;
+}
+
+/* Footer */
+footer { background: #333;}
+footer p {
+	color: #ccc;
+	font-size: 70%;
+	font-faimly: tahoma, sans-serif;
+	text-align: center;
+	margin:0;
+	padding:10px 0;
+}
